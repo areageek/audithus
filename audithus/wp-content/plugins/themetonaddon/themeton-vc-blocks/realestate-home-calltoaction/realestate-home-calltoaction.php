@@ -1,0 +1,18 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	die( '-1' );
+}
+
+return array(
+	'name' => esc_html__( 'realestate home call to action', 'themetonaddon' ),
+	'image_path' => 'http://themeton.com/themetonaddon/themeton-vc-blocks/'.basename(dirname(__FILE__)).'/'.'realestate-home-calltoaction.jpg',
+	'cat_display_name' => 'call to actions',
+	'custom_class' => 'tt_vc_templates-1',
+	'content' => <<<CONTENT
+<p>[vc_row full_width="stretch_row_content_no_spaces" css=".vc_custom_1507889012229{padding-top: 60px !important;padding-bottom: 80px !important;}"][vc_column][vc_row_inner content_placement="middle" css=".vc_custom_1507869341928{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 20px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;background-color: #24b9cd !important;}"][vc_column_inner width="1/6"][/vc_column_inner][vc_column_inner width="1/3" css=".vc_custom_1507869391926{margin-top: -50px !important;margin-bottom: -70px !important;padding-top: 0px !important;padding-bottom: 0px !important;padding-left: 40px !important;}"][price_btn name="starting at " link="#" price="2102" valut="uk "][vc_single_image image="2127" img_size="560X540" style="vc_box_border" border_color="white" css=".vc_custom_1511236970037{margin-bottom: 0px !important;padding-bottom: 0px !important;}"][/vc_column_inner][vc_column_inner width="1/3" css=".vc_custom_1507868669708{padding-left: 50px !important;}"][vc_custom_heading text="rose villa" font_container="tag:h2|font_size:40|text_align:center|color:%23ffffff|line_height:1em" use_theme_fonts="yes" el_class="uk-text-uppercase" css=".vc_custom_1510752347249{margin-top: 30px !important;margin-bottom: 0px !important;}"][vc_custom_heading text="1,2,3 &amp; 4 BHK -pay 20% &amp; move-in<br />
+first 20 EMI free" font_container="tag:h2|font_size:27|text_align:center|color:%23ffffff|line_height:32px" google_fonts="font_family:Oswald%3A300%2Cregular%2C700|font_style:300%20light%20regular%3A300%3Anormal" el_class="uk-text-uppercase" css=".vc_custom_1510752366989{margin-top: 15px !important;}"][vc_btn title="+555 333 133" style="custom" custom_background="rgba(247,247,247,0.04)" custom_text="#ffffff" shape="round" size="lg" align="center" i_icon_fontawesome="fa fa-whatsapp" css_animation="fadeIn" add_icon="true" link="url:%23|title:%2B555%20222%20666|target:%20_blank|"][/vc_column_inner][vc_column_inner width="1/6"][/vc_column_inner][/vc_row_inner][vc_row_inner css=".vc_custom_1507868347070{margin-top: 0px !important;margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;padding-top: 0px !important;padding-right: 0px !important;padding-bottom: 0px !important;padding-left: 0px !important;background-color: #0cb0c6 !important;}"][vc_column_inner width="1/4"][/vc_column_inner][vc_column_inner width="1/4"][/vc_column_inner][vc_column_inner width="1/3" css=".vc_custom_1507867648641{margin: 0px !important;padding: 0px !important;}"][vc_column_text css=".vc_custom_1510803251864{margin-bottom: 0px !important;padding-bottom: 0px !important;padding-left: 50px !important;}"]</p>
+<p style="text-align: center;"><span style="color: #6beeff; text-align: center;">Whitefield, Bannerghatta Road, Electronic City, HSR Layout</span></p>
+<p>[/vc_column_text][/vc_column_inner][vc_column_inner width="1/6"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row]</p>
+
+CONTENT
+);

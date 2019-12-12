@@ -1,0 +1,16 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	die( '-1' );
+}
+
+return array(
+	'name' => esc_html__( 'hosting footer', 'themetonaddon' ),
+	'image_path' => 'http://themeton.com/themetonaddon/themeton-vc-blocks/'.basename(dirname(__FILE__)).'/'.'hosting-footer.jpg',
+	'cat_display_name' => 'Header & Footer',
+	'custom_class' => 'mungu_vc_templates-1',
+	'content' => <<<CONTENT
+[vc_section css=".vc_custom_1510197950907{margin-right: 0px !important;margin-left: 0px !important;padding-top: 30px !important;padding-right: 0px !important;padding-left: 0px !important;}" el_class="footer-sections"][vc_row full_width="stretch_row" css=".vc_custom_1510197802872{border-bottom-width: 1px !important;padding-right: 0px !important;padding-bottom: 10px !important;padding-left: 0px !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;border-bottom-color: #232c3a !important;border-bottom-style: solid !important;}"][vc_column css=".vc_custom_1510197662835{padding-right: 0px !important;padding-left: 0px !important;}"][vc_row_inner vc_row_container="uk-container" vc_row_valignment="uk-flex-middle" vc_row_flex="uk-flex" css=".vc_custom_1510197819649{padding-right: 0px !important;padding-left: 0px !important;}"][vc_column_inner width="1/6" css=".vc_custom_1510197877312{margin-top: -85px !important;padding-left: 0px !important;}"][vc_widget_sidebar sidebar_id="footer1"][/vc_column_inner][vc_column_inner width="1/6" css=".vc_custom_1501578927831{margin-top: -50px !important;}"][vc_widget_sidebar sidebar_id="footer2"][/vc_column_inner][vc_column_inner width="1/3" css=".vc_custom_1510198141286{padding-right: 60px !important;}"][vc_widget_sidebar sidebar_id="footer3" el_class="footer-col-span"][/vc_column_inner][vc_column_inner width="1/3" css=".vc_custom_1510197885576{margin-top: -50px !important;padding-right: 0px !important;}"][instagram_post title="Instagram" img_limit="4"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row css=".vc_custom_1510200742845{margin-bottom: 40px !important;padding-top: 10px !important;padding-right: 0px !important;padding-left: 0px !important;}"][vc_column css=".vc_custom_1510197669321{padding-right: 0px !important;padding-left: 0px !important;}"][vc_row_inner vc_row_container="uk-container" vc_row_flex="uk-flex" vc_row_themeton="yes" css=".vc_custom_1510197830016{padding-top: 10px !important;padding-right: 0px !important;padding-bottom: 10px !important;padding-left: 0px !important;}"][vc_column_inner width="1/3" css=".vc_custom_1510197892168{padding-left: 0px !important;}"][vc_widget_sidebar sidebar_id="footer4" el_class="credit-card"][/vc_column_inner][vc_column_inner width="1/3" css=".vc_custom_1510198148790{padding-right: 60px !important;}"][vc_widget_sidebar sidebar_id="footer-top"][/vc_column_inner][vc_column_inner width="1/3"][vc_column_text el_class="element_remove_margin" css=".vc_custom_1510197566183{margin-top: 48px !important;}"]
+<p style="color: #a0abb2; font-size: 14px; text-align: left;">Copyright  © 2017 Next hosting</p>
+[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][/vc_section]
+CONTENT
+);

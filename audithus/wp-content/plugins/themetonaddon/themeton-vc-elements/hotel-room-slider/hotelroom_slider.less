@@ -1,0 +1,422 @@
+.nxt-roomslider {
+    .roomitem {
+        position: relative;
+        .nxt-hotels {
+            position: relative;
+            overflow: hidden;
+            height: 400px;
+            .hotel-room-thumb {
+                position: relative;
+                width: 100%;
+                margin: -10px 0 0 -7px;
+                display: block;
+                height: 100%;
+                opacity: 1;
+                -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                transition: opacity 0.35s, transform 0.35s;
+                -webkit-transform: translate3d(10px, 10px, 0);
+                transform: translate3d(10px, 10px, 0);
+                -webkit-backface-visibility: hidden;
+                backface-visibility: hidden;
+                background-size: cover;
+                background-position: center center;
+            }
+            @media screen and (max-width: 767px){
+                .nxt-hotels {
+                    height: 210px;
+                }    
+            }
+            figcaption {
+                &:before,
+                p {
+                    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+                    transition: opacity 0.35s, transform 0.35s;
+                }
+                ;
+                &:before {
+                    position: absolute;
+                    right: -100px;
+                    bottom: -100px;
+                    width: 300px;
+                    background: rgba(0, 0, 0, 0.5);
+                    height: 300px;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                    box-shadow: 0 0 0 900px rgba(41, 39, 39, 0.24);
+                    content: '';
+                    opacity: 0;
+                    -webkit-transform: scale3d(0.5, 0.5, 1);
+                    transform: scale3d(0.5, 0.5, 1);
+                    -webkit-transform-origin: 50% 50%;
+                    transform-origin: 50% 50%;
+                }
+            }
+            h2 {
+                text-align: left;
+                -webkit-transition: -webkit-transform 0.35s;
+                transition: transform 0.35s;
+                -webkit-transform: translate3d(5px, 5px, 0);
+                transform: translate3d(5px, 5px, 0);
+            }
+            p {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 600;
+                padding: 0 1.5em 1.5em 0;
+                width: 140px;
+                text-align: right;
+                opacity: 0;
+                -webkit-transform: translate3d(20px, 20px, 0);
+                transform: translate3d(20px, 20px, 0);
+            }
+            &:hover {
+                .hotel-room-thumb {
+                    text-align: left;
+                    -webkit-transition: -webkit-transform 0.35s;
+                    transition: transform 0.35s;
+                    -webkit-transform: translate3d(5px, 5px, 0);
+                    transform: translate3d(5px, 5px, 0);
+                }
+                figcaption::before {
+                    opacity: 1;
+                    -webkit-transform: scale3d(1, 1, 1);
+                    transform: scale3d(1, 1, 1);
+                }
+                h2,
+                p {
+                    opacity: 1;
+                    -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+                }
+            }
+        }
+    }
+    #faq-filter {
+        padding: 20px 0;
+        @media screen and (max-width: 767px){
+            ul{
+              float: left;
+              margin-top: 30px;
+            }
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            float: right;
+            li {
+                float: left;
+                padding-left: 40px;
+                color: fade(@color-brand, 50%);
+                .transition();
+                font-size: 14px;
+                font-weight: 500;
+                cursor: pointer;
+                &.active {
+                    color: #000;
+                }
+                &:hover {
+                    color: @color-brand;
+                }
+                ;
+            }
+        }
+    }
+   .owl-carousel .animated {
+        -webkit-animation-duration: 1000ms;
+        animation-duration: 1000ms;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    .owl-carousel .owl-animated-in {
+        z-index: 0;
+    }
+    .owl-carousel .owl-animated-out {
+        z-index: 1;
+    }
+    .owl-carousel .fadeOut {
+        -webkit-animation-name: fadeOut;
+        animation-name: fadeOut;
+    }
+    @-webkit-keyframes fadeOut {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    @keyframes fadeOut {
+        0% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+    /* 
+    * 	Owl Carousel - Auto Height Plugin
+    */
+    .owl-height {
+        -webkit-transition: height 500ms ease-in-out;
+        -moz-transition: height 500ms ease-in-out;
+        -ms-transition: height 500ms ease-in-out;
+        -o-transition: height 500ms ease-in-out;
+        transition: height 500ms ease-in-out;
+    }
+    /* 
+    *  Core Owl Carousel CSS File
+    */
+    .owl-carousel {
+        display: none;
+        width: 100%;
+        -webkit-tap-highlight-color: transparent;
+        //position relative and z-index fix webkit rendering fonts issue
+        position: relative;
+        z-index: 1;
+    }
+    .owl-carousel .owl-stage {
+        position: relative;
+        -ms-touch-action: pan-Y;
+    }
+    .owl-carousel .owl-stage:after {
+        content: ".";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+    }
+    .owl-carousel .owl-stage-outer {
+        position: relative;
+        overflow: hidden;
+        // fix for flashing background
+        -webkit-transform: translate3d(0px, 0px, 0px);
+    }
+    .owl-carousel .owl-controls .owl-nav .owl-prev,
+    .owl-carousel .owl-controls .owl-nav .owl-next,
+    .owl-carousel .owl-controls .owl-dot {
+        cursor: pointer;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .owl-carousel.owl-loaded {
+        display: block;
+    }
+    .owl-carousel.owl-loading {
+        opacity: 0;
+        display: block;
+    }
+    .owl-carousel.owl-hidden {
+        opacity: 0;
+    }
+    .owl-carousel .owl-refresh .owl-item {
+        display: none;
+    }
+    .owl-carousel .owl-item {
+        position: relative;
+        min-height: 1px;
+        float: left;
+        -webkit-backface-visibility: hidden;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+        -webkit-transform-style: preserve-3d;
+    }
+    .owl-carousel.owl-text-select-on .owl-item {
+        -webkit-user-select: auto;
+        -moz-user-select: auto;
+        -ms-user-select: auto;
+        user-select: auto;
+    }
+    .owl-carousel .owl-grab {
+        cursor: move;
+        cursor: -webkit-grab;
+        cursor: -o-grab;
+        cursor: -ms-grab;
+        cursor: grab;
+    }
+    .owl-carousel.owl-rtl {
+        direction: rtl;
+    }
+    .owl-carousel.owl-rtl .owl-item {
+        float: right;
+    }
+    /* No Js */
+    .no-js .owl-carousel {
+        display: block;
+    }
+    /* 
+    * 	Owl Carousel - Lazy Load Plugin
+    */
+    .owl-carousel .owl-item .owl-lazy {
+        opacity: 0;
+        -webkit-transition: opacity 400ms ease;
+        -moz-transition: opacity 400ms ease;
+        -ms-transition: opacity 400ms ease;
+        -o-transition: opacity 400ms ease;
+        transition: opacity 400ms ease;
+    }
+    .owl-carousel .owl-item img {
+        transform-style: preserve-3d;
+    }
+    /* 
+    * 	Owl Carousel - Video Plugin
+    */
+    .owl-carousel .owl-video-wrapper {
+        position: relative;
+        height: 100%;
+        background: #000;
+    }
+    .owl-carousel .owl-video-play-icon {
+        position: absolute;
+        height: 80px;
+        width: 80px;
+        left: 50%;
+        top: 50%;
+        margin-left: -40px;
+        margin-top: -40px;
+        background: url("owl.video.play.png") no-repeat;
+        cursor: pointer;
+        z-index: 1;
+        -webkit-backface-visibility: hidden;
+        -webkit-transition: scale 100ms ease;
+        -moz-transition: scale 100ms ease;
+        -ms-transition: scale 100ms ease;
+        -o-transition: scale 100ms ease;
+        transition: scale 100ms ease;
+    }
+    .owl-carousel .owl-video-play-icon:hover {
+        -webkit-transition: scale(1.3, 1.3);
+        -moz-transition: scale(1.3, 1.3);
+        -ms-transition: scale(1.3, 1.3);
+        -o-transition: scale(1.3, 1.3);
+        transition: scale(1.3, 1.3);
+    }
+    .owl-carousel .owl-video-playing .owl-video-tn,
+    .owl-carousel .owl-video-playing .owl-video-play-icon {
+        display: none;
+    }
+    .owl-carousel .owl-video-tn {
+        opacity: 0;
+        height: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        -webkit-transition: opacity 400ms ease;
+        -moz-transition: opacity 400ms ease;
+        -ms-transition: opacity 400ms ease;
+        -o-transition: opacity 400ms ease;
+        transition: opacity 400ms ease;
+    }
+    .owl-carousel .owl-video-frame {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.roomslider {
+    .owl-dots>* {
+        margin-left: 10px;
+        padding-left: 0px;
+    }
+    .owl-dots {
+        display: flex;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-left: -15px;
+        margin-right: 0px;
+        margin-top: 25px;
+        height: 30px;
+        .owl-dot {
+            border-radius: 50%;
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+            -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+            background: transparent;
+            width: 13px;
+            height: 13px;
+            position: relative;
+            background: #000;
+            opacity: .2;
+            cursor: pointer;
+            &.active {
+                box-shadow: 0 0 0 2px @color-brand;
+                border: none;
+                border-radius: 50%;
+                background: transparent;
+                opacity: 1;
+                span {
+                    transform: scale(0.4);
+                    -webkit-transform: scale(0.4);
+                    background-color: @color-brand;
+                }
+            }
+            span {
+                -webkit-transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
+                transition: background-color 0.3s ease, transform 0.3s ease;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                outline: none;
+                border-radius: 50%;
+                background-color: rgb(116, 116, 116);
+                text-indent: -999em;
+                cursor: pointer;
+                position: absolute;
+            }
+            &:hover {
+                box-shadow: 0 0 0 2px @color-brand;
+                border: none;
+                border-radius: 50%;
+                background: transparent;
+                opacity: 1;
+                span {
+                    transform: scale(0.4);
+                    -webkit-transform: scale(0.4);
+                    background-color: @color-brand;
+                }
+            }
+        }
+    }
+}
+
+.owl-carousel .item.__loading {
+    opacity: 0;
+    transform: translateX(40px);
+    -webkit-transform: translateX(40px);
+}
+
+.owl-carousel .item {
+    transition: .8s;
+    -webkit-transition: .8s;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    opacity: 1;
+}

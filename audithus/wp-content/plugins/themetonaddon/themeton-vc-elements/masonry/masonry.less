@@ -1,0 +1,286 @@
+.mungu-card-masonry {
+	width: 100%;
+	position: relative;
+
+	.masonry-item {
+		.uk-overlay {
+			opacity: 0;
+			visibility: hidden;
+			.uk-card-title,
+			.uk-card-title a,
+			a {
+				color: #fff;
+				line-height: 1;
+				text-decoration: none;
+			}
+			& > * {
+				line-height: 1;
+				margin: 0;
+				+ * {
+					margin-top: 15px;
+				}
+			}
+		}
+		&:hover {
+			.entry-media .themeton-image .overlay,
+			.uk-overlay {
+				opacity: 1 !important;
+				visibility: visible !important;
+			}
+		}
+	}
+	.meta-details {
+		& > span {
+			float:left;
+			position: relative;
+			+ span {
+				lmargin-left: 12px;
+				padding-left: 12px;
+				&:before {
+					content: '|';
+					display: block;
+					position: absolute;
+					left: 0;
+				}
+			}
+		}
+	}
+	// Default 4 columns
+	.masonry-item-1x1,
+	.masonry-item-1x2 {
+		width: 25%;
+	}
+	.masonry-item-2x1,
+	.masonry-item-2x2 {
+		width: 50%;
+	}
+	.masonry-item-3x2 {
+		width: 75%;
+	}
+
+	// 3 columns
+	&.masonry-grid-3 {
+		.masonry-item-1x1,
+		.masonry-item-1x2 {
+			width: 33.3333%;
+		}
+		.masonry-item-2x1,
+		.masonry-item-2x2 {
+			width: 66.6666%;
+		}
+		.masonry-item-3x2 {
+			width: 100%;
+		}
+	}
+	// 5 columns
+	&.masonry-grid-5 {
+		.masonry-item-1x1,
+		.masonry-item-1x2 {
+			width: 20%;
+		}
+		.masonry-item-2x1,
+		.masonry-item-2x2 {
+			width: 40%;
+		}
+		.masonry-item-3x2 {
+			width: 60%;
+		}
+	}
+	// 6 columns
+	&.masonry-grid-6 {
+		.masonry-item-1x1,
+		.masonry-item-1x2 {
+			width: 16.6666%;
+		}
+		.masonry-item-2x1,
+		.masonry-item-2x2 {
+			width: 33.3333%;
+		}
+		.masonry-item-3x2 {
+			width: 50%;
+		}
+	}
+	@media screen and (max-width:1024px) {
+		.masonry-item-1x1,
+		.masonry-item-1x2 {
+			width: 33.3333%;
+		}
+		.masonry-item-2x1,
+		.masonry-item-2x2,
+		.masonry-item-3x2 {
+			width: 66.6666%;
+		}
+
+		&.masonry-grid-3,&.masonry-grid-5,&.masonry-grid-6 {
+			.masonry-item-1x1,
+			.masonry-item-1x2 {
+				width: 33.3333%;
+			}
+			.masonry-item-2x1,
+			.masonry-item-2x2,
+			.masonry-item-3x2 {
+				width: 66.6666%;
+			}
+		}
+	}
+	@media screen and (max-width:768px) {
+		.masonry-item-1x1,
+		.masonry-item-1x2 {
+			width: 50%;
+		}
+		.masonry-item-2x1,
+		.masonry-item-2x2,
+		.masonry-item-3x2 {
+			width: 100%;
+		}
+
+		&.masonry-grid-3,&.masonry-grid-5,&.masonry-grid-6 {
+			.masonry-item-1x1,
+			.masonry-item-1x2 {
+				width: 50%;
+			}
+			.masonry-item-2x1,
+			.masonry-item-2x2,
+			.masonry-item-3x2 {
+				width: 100%;
+			}
+		}
+	}
+
+	&.masonry-gap {
+
+		margin-left: 1%;
+		margin-right: 1%;
+
+		.masonry-item {
+			margin: 0 1% 2%;
+		}
+		// Default 4 columns
+		.masonry-item-1x1,
+		.masonry-item-1x2 {
+			width: 22.5%;
+		}
+		.masonry-item-1x2{
+			padding-top: 2%;
+
+			.uk-card-media-top{
+				.entry-media{
+					position: static;
+
+					.themeton-image{
+						position: static;
+						
+						&::before{
+							content: '';
+							position: absolute;
+							top: 0px;
+							left: 0px;
+							right: 0px;
+							bottom: 0px;
+							background-image: inherit;
+							background-position: center center;
+							background-size: cover;
+							background-repeat: no-repeat;
+						}
+					}
+				}
+			}
+		}
+		.masonry-item-2x1,
+		.masonry-item-2x2 {
+			width: 47.5%;
+		}
+		.masonry-item-3x2 {
+			width: 72.5%;
+		}
+
+		// 3 columns
+		&.masonry-grid-3 {
+			.masonry-item-1x1,
+			.masonry-item-1x2 {
+				width: 31.3%;
+			}
+			.masonry-item-2x1,
+			.masonry-item-2x2 {
+				width: 64.6%;
+			}
+			.masonry-item-3x2 {
+				width: 100%;
+			}
+		}
+		// 5 columns
+		&.masonry-grid-5 {
+			.masonry-item-1x1,
+			.masonry-item-1x2 {
+				width: 17.6%;
+			}
+			.masonry-item-2x1,
+			.masonry-item-2x2 {
+				width: 37.1%;
+			}
+			.masonry-item-3x2 {
+				width: 54.2%;
+			}
+		}
+		// 6 columns
+		&.masonry-grid-6 {
+			.masonry-item-1x1,
+			.masonry-item-1x2 {
+				width: 14.3%;
+			}
+			.masonry-item-2x1,
+			.masonry-item-2x2 {
+				width: 28.6%;
+			}
+			.masonry-item-3x2 {
+				width: 43.3%;
+			}
+		}
+		@media screen and (max-width:1024px) {
+			.masonry-item-1x1,
+			.masonry-item-1x2 {
+				width: 31.3333%;
+			}
+			.masonry-item-2x1,
+			.masonry-item-2x2,
+			.masonry-item-3x2 {
+				width: 64.6666%;
+			}
+
+			&.masonry-grid-3,&.masonry-grid-5,&.masonry-grid-6 {
+				.masonry-item-1x1,
+				.masonry-item-1x2 {
+					width: 31.3333%;
+				}
+				.masonry-item-2x1,
+				.masonry-item-2x2,
+				.masonry-item-3x2 {
+					width: 64.6666%;
+				}
+			}
+		}
+		@media screen and (max-width:768px) {
+			.masonry-item-1x1,
+			.masonry-item-1x2 {
+				width: 48%;
+			}
+			.masonry-item-2x1,
+			.masonry-item-2x2,
+			.masonry-item-3x2 {
+				width: 98%;
+			}
+
+			&.masonry-grid-3,&.masonry-grid-5,&.masonry-grid-6 {
+				.masonry-item-1x1,
+				.masonry-item-1x2 {
+					width: 48%;
+				}
+				.masonry-item-2x1,
+				.masonry-item-2x2,
+				.masonry-item-3x2 {
+					width: 98%;
+				}
+			}
+		}
+	}
+}

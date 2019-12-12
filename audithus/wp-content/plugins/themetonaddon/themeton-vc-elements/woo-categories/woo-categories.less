@@ -1,0 +1,61 @@
+.themeton-woo-list {
+    background-color:#f4f8fa;
+    padding-bottom: 60px;
+    h1 {
+        padding: 20px 40px;
+        margin-bottom: 0;
+        background-color: #ffffff;
+        border: 1px solid #ebeff0;
+        border-left: 2px solid #fd405e;
+        font-size: 22px;
+        color: #fd405e;
+    }
+    .list {
+        margin-left: 40px;
+        list-style: none;
+        .woo-themeton-children {
+            & > ul {
+                display: none;
+            }
+        }
+        .active {
+            &:before {
+                color:#fd405e!important;
+                transform: rotate(90deg)!important;
+            }
+        }
+        & > li {
+            cursor: pointer;
+            color:#000000;
+            font-size: 17px;
+            line-height: 35px;
+            a {
+                color:#000000;
+                font-size: 17px;
+                line-height: 35px;
+            }
+            ul {
+                padding-left: 0;
+                margin-bottom: 30px;
+                li {
+                    a {
+                        line-height: 35px;
+                        text-decoration: none;
+                        font-size:16px;
+                        color:#727272;
+                    }
+                    list-style: none;
+                }
+            }
+            list-style: none;
+            &:before {
+                content: '\f0da';
+                font-family: 'FontAwesome';
+                float: left;
+                margin-left: -1.5em;
+                color: #000;
+                transition: 0.1s;
+            }
+        }
+    }
+}

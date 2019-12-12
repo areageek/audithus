@@ -1,0 +1,640 @@
+.mungu-element-blog {
+    .jew-blog {
+        h3 {
+            font-family: 'Playfair Display';
+            font-size: 22px;
+            line-height: 29px;
+            color: #5e5d5d;
+            a {
+                color: #5e5d5d;
+            }
+        }
+        .jewitem {
+            width: 21%;
+            margin-top: 30px;
+            float: left;
+            &.jew-feature {
+                width: 49.3%;
+                h3 {
+                    padding: 30px;
+                    padding-right: 145px;
+                }
+                .jewdate {
+                    color: #a1a1a1;
+                    padding: 0 0 20px 30px;
+                    display: block;
+                    margin-top: -30px;
+                    font-size: 17px;
+                }
+                .blog-vc-thumbnail {
+                    height: 415px;
+                    background-position: center;
+                    background-size: cover;
+                }
+            }
+        }
+        .mungu-blog2-jew {
+            height: 276px;
+            h3 {
+                font-family: 'Playfair Display';
+                font-size: 18px;
+                line-height: 56px;
+                padding-left: 20px;
+            }
+            .blog-vc-thumbnail {
+                height: 198px;
+                background-position: center;
+                background-size: cover;
+            }
+        }
+    }
+    .chudur{
+        h3{
+            a{
+                font-size:26px!important;
+                font-weight: 500;
+                color:#000!important;   
+                line-height: 32px;
+            }
+        }
+        a{
+            color:@color-brand !important;
+            text-transform: uppercase;
+        }
+       
+    }
+    .blog-resent{
+        a{
+            font-size: 13px;
+            color:#666;
+            &:hover{
+                color:@color-brand;
+            }
+        }
+        h3{
+            a{
+                font-size:22px;
+                font-weight: 500;
+                color:#000;   
+                line-height: 32px;
+            }
+        }
+    }
+    .mungu-blog-content {
+        max-width: 890px;
+    }
+    h3 {
+        margin-top: 10px;
+        &+p {
+            margin-top: 10px;
+        }
+    }
+    &.uk-grid-margin,
+    .uk-grid-margin {
+        @media screen and (min-width: 992px) {
+            margin-bottom: 40px;
+        }
+    }
+    .bg-hovered {
+        .thumb_backound {
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+            position: relative;
+            height: 490px !important;
+            .transition();
+            .entry-hover {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: rgba(0, 0, 0, 0.18);
+                .transition();
+            }
+            .blog-date {
+                -webkit-transition: all .4s ease-in-out;
+                -o-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+                a {
+                    font-weight: 500;
+                    font-size: 12px;
+                    color: #fff;
+                    z-index: 5;
+                    position: relative;
+                    transition: all .4s ease-in-out;
+                    text-transform: uppercase;
+                }
+            }
+            .animeblogtitle {
+                -webkit-transition: all .4s ease-in-out;
+                -o-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+            }
+            .animeblogtext {
+                opacity: 0;
+                height: 0;
+                -webkit-transition: all .4s ease-in-out;
+                -o-transition: all .4s ease-in-out;
+                transition: all .4s ease-in-out;
+            }
+            a,
+            p {
+                position: relative;
+                z-index: 5;
+                color: #fff;
+            }
+            p {
+                font-size: 16px;
+            }
+            .uk-button {
+                background: #1d1d1f;
+                &:hover {
+                    background: transparent;
+                    color:#000!important;
+                }
+            }
+            h3 {
+                color: #ffffff;
+                font-weight: 500;
+                text-decoration: none;
+                line-height: 30px;
+                font-size: 22px;
+                z-index: 5;
+                position: relative;
+                text-transform: capitalize;
+                a {
+                    color: #fff;
+                    .transition();
+                }
+            }
+            &:hover {
+                .blog-date {
+                    -webkit-transform: translateY(-110px);
+                    -ms-transform: translateY(-110px);
+                    transform: translateY(-110px);
+                    -webkit-transition: all .3s ease-in-out;
+                    -o-transition: all .3s ease-in-out;
+                    transition: all .3s ease-in-out;
+                    a {
+                        color: #666;
+                    }
+                }
+                .animeblogtitle {
+                    -webkit-transform: translateY(-110px);
+                    -ms-transform: translateY(-110px);
+                    transform: translateY(-110px);
+                    -webkit-transition: all .4s ease-in-out;
+                    -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+                }
+                .animeblogtext {
+                    -webkit-transform: translateY(-50px);
+                    -ms-transform: translateY(-50px);
+                    transform: translateY(-50px);
+                    -webkit-transition: all .5s ease-in-out;
+                    -o-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+                }
+                .animeblogbutton {
+                    -webkit-transition: all .4s ease-in-out;
+                    -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+                }
+                h3,
+                a,
+                p {
+                    z-index: 10;
+                    color: #1d1d1f;
+                }
+                p {
+                    height: auto!important;
+                    opacity: 1!important;
+                    color: #666;
+                }
+                .uk-button {
+                    color: #fff;
+                }
+                .entry-hover {
+                    background: #ffffff;
+                    border: 3px solid #f1cc3f;
+                }
+            }
+            ;
+        }
+    }
+}
+
+article{
+    &.mungu-blog-col1 {
+        &+article {
+            margin-top: 80px;
+        }
+    }
+}
+
+.mungu-blog-col3 {
+    .entry-media {
+        &+.mungu-blog-content {
+            position: relative;
+            z-index: 1;
+            background-color: @color-bodybg;
+            margin: -100px 40px 0;
+            padding: 30px;
+            box-shadow: 0px 0px 20px 0px rgba(143, 143, 143, 0.1);
+        }
+    }
+}
+
+.mungu-blog-thumb {
+    .entry-media {
+        &+.mungu-blog-content {
+            padding-top: 15px;
+            padding-left: 0px;
+            padding-right: 0px;
+            padding-bottom: 15px;
+            border: 1px solid #f1f1f1;
+            h3 {
+                margin-left: 30px;
+                margin-right: 30px;
+                a {
+                    letter-spacing: -1px;
+                    font-family: 'Playfair Display', serif;
+                    font-size: 19px;
+                    color: #3e3e3e;
+                }
+            }
+        }
+    }
+    .mungu-thumb-meta {
+        color: #9b9b9b;
+        a {
+            font: 15px 'Playfair Display', serif!important;
+            color: #9b9b9b!important;
+            text-transform: uppercase;
+        }
+        margin-top: 20px;
+        padding-top: 18px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-top:1px solid #f5f5f5;
+        .blog-author {
+            font-size: 15px;
+            font-family: 'Playfair Display', serif;
+            color: #9b9b9b;
+            &::first-letter {
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.mungu-blog-col3,
+.mungu-blog-col4 {
+    @media screen and (max-device-width: 640px) {
+        margin-left: -15px !important;
+    }
+    .uk-button {
+        margin-top: 20px;
+    }
+    .blog-date {
+        font: 12px @font-title, sans-serif;
+        a {
+            color: lighten(@color-text, 10%);
+            text-decoration: none;
+            font-weight: normal;
+        }
+    }
+    h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        a {
+            font: 20px @font-title, sans-serif;
+            color: @color-title;
+            text-decoration: none;
+            line-height: 18px;
+        }
+    }
+    .uk-width-1-2 {
+        .blog-date {
+            margin-bottom: 0;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+.mungu-blog-col4 {
+    .uk-inline-clip {
+        display: block;
+    }
+    .col-4-thum-hov {
+        transition: all 0.5s;
+        &:hover {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            transition: all 0.5s;
+        }
+    }
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.readmorelink {
+    color: @color-brand;
+    .transition();
+    &:hover {
+        color: @color-ancient1;
+    }
+    padding-top: 0;
+    margin-top: 20px;
+}
+
+@keyframes plus-in {
+    from {
+        opacity: 1;
+        transform: rotateZ(0deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateZ(180deg);
+    }
+}
+
+@keyframes plus-out {
+    from {
+        opacity: 1;
+        transform: rotateZ(180deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateZ(0deg);
+    }
+}
+.blog-style9 {
+    h1 {
+        a {
+            color: #000000;
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+    span {
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 16px;
+        line-height: 33px;
+        margin-top: 30px;
+        color: #7f7f7f;
+    }
+}
+.meissa-blog-layout {
+    margin-top:0px!important;
+    .date-col {
+        padding-left: 200px;
+        z-index: 11;
+        /* Large Devices - Desktops */
+        @media screen and (min-width: 1200px){
+            padding-left: 150px; 
+        }
+
+        @media screen and (min-width: 1200px) and (max-width: 1350px){
+            padding-left: 150px; 
+        }
+
+        /* Medium Devices - Desktops */
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+            padding-left: 100px; 
+        }
+
+        @media screen and (min-width: 992px){
+            padding-left: 100px; 
+        }
+
+        /* Small Devices - Tablets */
+        @media screen and (min-width: 768px) and (max-width: 991px){
+            padding-left: 50px; 
+        }
+
+        /* Extra Small Devices - Phones */
+        @media screen and (max-width: 767px){
+            padding-left: 30px; 
+        }
+        @media (max-width: 479px){
+            padding-left: 30px; 
+        }
+    }
+    .date {
+        color:#1a16fd;
+        font-size: 20px;
+        font-style: italic;
+        font-family: Open sans;
+        text-transform: lowercase;
+    }
+    .month {
+        margin-top: -7px;
+    }
+    .author {
+        color:#000000;
+        opacity: 0.5;
+        font-family: Open sans;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: -2px;
+    }
+    h1 {
+        font-size: 30px;
+        a {
+            font-family: 'Raleway', sans-serif;
+            color: #000000;
+        }
+        margin-bottom: 15px!important;
+    }
+    .blog-excerpt {
+        font-family: Open sans;
+        font-size: 18px;
+        opacity: 0.5;
+        color:#000;
+        padding-bottom: 100px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .blog-content {
+        padding-right: 200px;
+        z-index: 11;
+        padding-left: 45px;
+        /* Large Devices - Desktops */
+        @media screen and (min-width: 1200px){
+            padding-right: 150px; 
+        }
+
+        @media screen and (min-width: 1200px) and (max-width: 1350px){
+            padding-right: 150px; 
+        }
+
+        /* Medium Devices - Desktops */
+        @media screen and (min-width: 992px) and (max-width: 1199px){
+            padding-right: 100px; 
+        }
+
+        @media screen and (min-width: 992px){
+            padding-right: 100px; 
+        }
+
+        /* Small Devices - Tablets */
+        @media screen and (min-width: 768px) and (max-width: 991px){
+            padding-right: 50px; 
+        }
+
+        /* Extra Small Devices - Phones */
+        @media screen and (max-width: 767px){
+            padding-right: 30px; 
+        }
+        @media (max-width: 479px){
+            padding-right: 30px; 
+        }
+    }
+}
+.thumb-no {
+    h1 {
+        a {
+            &:hover {
+                color:@color-brand;
+            }
+        }
+    }
+}
+.thumb-yes {
+    .cover {
+        opacity: 0;
+        transition: opacity 1s;
+        background-repeat: no-repeat!important;
+        background-size: cover!important;
+        width: 100%;
+        height: 100%;
+    }
+    &:hover {
+        .cover {
+            opacity: 1;
+        }
+        .author {
+            color:#fff;
+        }
+        .blog-excerpt {
+            color:#fff;
+        }
+        .date {
+            color:#fff;
+        }
+        h1 {
+            a {
+                color:#fff;
+                &:hover {
+                    color:#fff;
+                }
+            }
+        }
+    }
+}
+.meissa-blog {
+    &>div {
+        &:last-child {
+            .blog-excerpt {
+                border-bottom:none;
+            }
+        }
+    }
+}
+.meissa-pagination {
+    ul {
+        li {
+            &::before {
+                content: '';
+            }
+            .current {
+                color:@color-brand!important;
+            }
+            .page-numbers {
+                font-family: 'PT Sans', sans-serif;
+                font-weight: bold;
+                font-size:30px; 
+                color:#e2e2e2;
+            }
+        }
+    }
+}
+.blog-style-13 {
+    .mungu-blog-content {
+        padding: 40px 50px;
+    }
+    h3 {
+        margin-top: 15px;
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            -webkit-transition: all 0.25s ease;
+            -moz-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+        }
+        
+    }
+    .color-brand {
+        -webkit-transition: all 0.25s ease;
+            -moz-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+        a {
+            -webkit-transition: all 0.25s ease;
+            -moz-transition: all 0.25s ease;
+            transition: all 0.25s ease;
+            &:hover {
+                color: #ffffff;
+                -webkit-transition: all 0.25s ease;
+                -moz-transition: all 0.25s ease;
+                transition: all 0.25s ease;;
+            }
+        }
+        
+    }
+    .blog-excerpt {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        color: #fff;
+        width: 100%;
+        line-height: 28px;
+        margin: 20px 0;
+    }
+    .blog-meta-collection {
+        color: #fff;
+        opacity: .8;
+        font-family: 'Roboto', serif;
+        font-size: 12px;
+        line-height: 12px;
+        font-weight: 100;
+        text-decoration: none;
+        -webkit-transition: all 0.25s ease;
+        -moz-transition: all 0.25s ease;
+        transition: all 0.25s ease;
+    }
+    .style-13-blurred {
+        position: absolute;
+        opacity: 0.2;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+        z-index: -1 !important;
+        bottom: 0px;
+        overflow: hidden;
+        z-index: 0;
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -o-filter: blur(10px);
+        -ms-filter: blur(10px);
+        filter: blur(10px);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}

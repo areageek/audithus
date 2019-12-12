@@ -1,0 +1,17 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	die( '-1' );
+}
+
+return array(
+	'name' => esc_html__( 'model contract contact', 'themetonaddon' ),
+	'image_path' => 'http://themeton.com/themetonaddon/themeton-vc-blocks/'.basename(dirname(__FILE__)).'/'.'model-contract-contact.jpg',
+	'cat_display_name' => 'contacts',
+	'custom_class' => 'mungu_vc_templates-1',
+	'content' => <<<CONTENT
+[vc_row css=".vc_custom_1500369198367{margin-bottom: 100px !important;}"][vc_column width="1/6"][/vc_column][vc_column width="2/3"][vc_custom_heading text="i am mia" font_container="tag:h1|font_size:51|text_align:center" use_theme_fonts="yes" css=".vc_custom_1500881844761{margin-bottom: 50px !important;}"][vc_row_inner 0=""][vc_column_inner width="1/3"][vc_single_image image="1474" img_size="full" alignment="center"][vc_custom_heading text="Phone" font_container="tag:h2|font_size:25|text_align:center" google_fonts="font_family:Playfair%20Display%3Aregular%2Citalic%2C700%2C700italic%2C900%2C900italic|font_style:700%20bold%20regular%3A700%3Anormal"][vc_custom_heading text="+665 5585 666<br />
+(656) 5222 1234" font_container="tag:h2|font_size:20|text_align:center" google_fonts="font_family:Playfair%20Display%3Aregular%2Citalic%2C700%2C700italic%2C900%2C900italic|font_style:400%20regular%3A400%3Anormal" link="url:tel%3A665%205585%20666%20(656)%205222%201234|||"][/vc_column_inner][vc_column_inner width="1/3"][vc_single_image image="1465" img_size="full" alignment="center"][vc_custom_heading text="Email" font_container="tag:h2|font_size:25|text_align:center" google_fonts="font_family:Playfair%20Display%3Aregular%2Citalic%2C700%2C700italic%2C900%2C900italic|font_style:700%20bold%20regular%3A700%3Anormal"][vc_custom_heading text="info@iammia.com<br />
+contact@iammia.com" font_container="tag:h2|font_size:20|text_align:center" google_fonts="font_family:Playfair%20Display%3Aregular%2Citalic%2C700%2C700italic%2C900%2C900italic|font_style:400%20regular%3A400%3Anormal" link="url:mailto%3Ainfo%40next.com|||"][/vc_column_inner][vc_column_inner width="1/3"][vc_single_image image="1475" img_size="full" alignment="center"][vc_custom_heading text="Follow Us" font_container="tag:h2|font_size:25|text_align:center" google_fonts="font_family:Playfair%20Display%3Aregular%2Citalic%2C700%2C700italic%2C900%2C900italic|font_style:700%20bold%20regular%3A700%3Anormal"][vc_icon icon_fontawesome="fa fa-facebook-square" color="black" el_class="about-seo" link="url:https%3A%2F%2Fwww.facebook.com%2Fsharer%2Fsharer.php%3Fu%3Dhttp%3A%2F%2Fnext.themeton.com%2Fmodel%2Fcontact-me%2F|||"][vc_icon icon_fontawesome="fa fa-twitter-square" color="black" el_class="about-seo" link="url:https%3A%2F%2Ftwitter.com%2Fhome%3Fstatus%3Dhttp%3A%2F%2Fnext.themeton.com%2Fmodel%2Fcontact-me%2F|||"][vc_icon icon_fontawesome="fa fa-google-plus-square" color="black" el_class="about-seo" link="url:https%3A%2F%2Fplus.google.com%2Fshare%3Furl%3Dhttp%3A%2F%2Fnext.themeton.com%2Fmodel%2Fcontact-me%2F|||"][vc_icon icon_fontawesome="fa fa-linkedin-square" color="black" el_class="about-seo" link="url:https%3A%2F%2Fwww.linkedin.com%2FshareArticle%3Fmini%3Dtrue%26url%3D%26title%3D%26summary%3D%26source%3Dhttp%3A%2F%2Fnext.themeton.com%2Fmodel%2Fcontact-me%2F|||"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/6"][/vc_column][/vc_row]
+
+CONTENT
+);

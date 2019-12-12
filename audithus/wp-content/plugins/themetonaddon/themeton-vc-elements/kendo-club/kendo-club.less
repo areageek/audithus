@@ -1,0 +1,60 @@
+.kitem {
+    background: #00000026 !important;
+    padding-bottom: 125px;
+    padding-top: 125px;
+    .transition();
+    img {
+        width: 100px;
+        height: 100px;
+        filter: gray;
+        /* IE5+ */
+        -webkit-filter: grayscale(1);
+        /* Webkit Nightlies & Chrome Canary */
+        -webkit-transition: all .8s ease-in-out;
+    }
+    h3 {
+        color: #fff;
+        line-height: 1em;
+        font-size: 30px;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+    p{
+        color: #fff;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 100;
+        margin-top: 50px;
+        margin-bottom: 35px; 
+    }
+    span {
+        color: @color-brand;
+        font-size: 24px;
+    }
+    .uk-button {
+        margin-top:50px;
+        &.bordered {
+            text-transform: capitalize;
+            border-radius: 50px;
+            border: 1px solid #909090;
+            color: #fff;
+            .transition();
+        }
+    }
+    &:hover {
+        background: #00000086 !important;
+        .uk-button {
+            &.bordered {
+                color: #fff;
+                border: 1px solid darken(@color-brand,5%);
+                background: linear-gradient(295deg, rgb(80, 8, 52) 0%, rgb(161, 11, 103) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#a10b67', GradientType=1);
+            }
+        }
+        img {
+            filter: none;
+            -webkit-filter: grayscale(0);
+            -webkit-transform: scale(1.01);
+        }
+    }
+}

@@ -1,0 +1,73 @@
+//video player 
+.mungu-video-player {
+	.video-player-left {
+		margin-right: -38px;
+		z-index: 1;
+	}
+	.video-player-right {
+		margin-left: -38px;
+		z-index: 1;
+	}
+	.uk-icon-button {
+		width: 60px;
+		height: 60px;
+		background-color:#f85b5b;
+		&:after {
+			content: "";
+			position: absolute;
+	    	width: 70px;
+			height: 70px;
+			border-radius:50%; 
+			background-color: transparent;
+			border: 1px solid #f85b5b;
+			transition: all .3s ease-in-out;
+			&:hover {
+				transform: scale(1.1);
+				transition: all .3s ease-in-out;
+			}
+	    }
+	}
+	.uk-icon {
+		font-size: 40px;
+		color: #ffffff;
+	}
+	.play-button-con {
+		border-radius: 50%;
+		background: #fff;
+		max-width: 80px;
+		width: 80px;
+		max-height: 80px;
+		height: 80px;
+		box-shadow: 0px 0px 20px 0px rgba(54, 54, 54, 0.38);
+		.icobutton {
+			font-size: 2.2em;
+			position: relative;
+			margin: 0;
+			margin-left: 8px;
+			padding: 0;
+			color: #c0c1c3;
+			border: 0;
+			background: none;
+			overflow: visible;
+			-webkit-tap-highlight-color: rgba(0,0,0,0);
+			.fa {
+				display: block;
+				padding: 0 0.1em;
+			}
+			svg {
+				left: 0;
+			}
+			&:hover {
+				outline: none;
+			}
+			&:focus {
+				outline: none;
+			}
+			.icobutton--unicorn svg {
+				fill: #c0c1c3;
+			}
+		}	
+	}
+
+}
+/* Icons button */

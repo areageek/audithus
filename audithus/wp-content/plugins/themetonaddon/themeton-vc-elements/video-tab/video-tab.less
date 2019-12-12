@@ -1,0 +1,109 @@
+.mungu-video-tab {
+    .uk-subnav {
+        li {
+            a {
+                border: 3px solid #fff;
+            }
+        }
+    }
+    .uk-modal-dialog {
+        width: 560px !important;
+    }
+    .video-back {
+        background-color: #94ddff;
+        position: relative;
+        .thumbnail {
+            background: #ececec;
+            width: 100.1%;
+            height: 100%;
+            position: absolute;
+            z-index: 10;
+            top: -70px;
+            left: -70px;
+            a {
+                top: 60px;
+                right: 80px;
+                position: absolute;
+                font-size: 15px;
+                color: #fff;
+                i {
+                    color:#fff;
+                }
+            }
+        }
+    }
+    #video-panel {
+        div {
+            iframe {
+                top: -70px;
+                left: -70px;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .uk-subnav {
+        margin-top: 100px;
+        margin-bottom:100px;
+    }
+    .video-content {
+        h1 {
+            margin-top: 50px;
+        }
+        p {
+            font-size: 19px;
+            color:#3e3e3e;
+            font-family: 'Playfair Display', serif;
+        }
+    }
+    .uk-tab {
+        border-bottom: 0;
+        margin-left: 0;
+        &::before {
+            border-bottom:none!important;
+        }
+        .uk-active {
+            &>a {
+                border:3px solid @brand-color!important;
+                background-color: #fff!important;
+            }
+        }
+        li {
+            &:first-child {
+            }
+            &+li {
+                margin-left: 30px;
+            }
+            a {
+                padding: 0;
+                img {
+                    width: 120px;
+                    height: 70px;
+                }
+            }
+        }
+        .mungu-tab-title {
+            padding: 16px 0;
+            h3 {
+                margin:0;
+            }
+            img {
+                display: block;
+                margin: 0 auto 20px;
+            }
+        }
+        &>li {
+            padding-left: 0;
+        }
+        &.uk-child-width-auto {
+            .mungu-tab-title {
+                margin-right: 100px;
+            }
+        }
+    }
+    .uk-switcher {
+        border-top: 0;
+        padding: 35px 40px;
+    }
+}

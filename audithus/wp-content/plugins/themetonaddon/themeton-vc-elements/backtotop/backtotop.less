@@ -1,0 +1,24 @@
+#scroll {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    z-index: 99999;
+    display: none;
+    padding: 10px 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    border-radius: 3px;
+  
+    i{
+        color:#fff;
+    }
+    &:hover {
+        opacity:.8;
+        filter:"alpha(opacity=100)";
+        -ms-filter:"alpha(opacity=100)";
+        box-shadow: 1px 1px 3px rgba(227,227,227,0.28);
+        color: #fff;
+        transform: translateY(-7px);
+    }
+}

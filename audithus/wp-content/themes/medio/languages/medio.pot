@@ -1,0 +1,1966 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the nextgen package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nextgen 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-20 12:53+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: comments.php:21
+msgid "Pingback:"
+msgstr ""
+
+#: comments.php:21
+msgid "Edit"
+msgstr ""
+
+#: comments.php:48
+msgid "Reply"
+msgstr ""
+
+#: comments.php:67
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:69 comments.php:70
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:72 comments.php:73
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:85 comments.php:125
+msgid "Comments"
+msgstr ""
+
+#: comments.php:87 content-archive.php:20
+#, php-format
+msgctxt "comment"
+msgid "One comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:107
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:113
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:117
+msgid "Name *"
+msgstr ""
+
+#: comments.php:120
+msgid "Email *"
+msgstr ""
+
+#: comments.php:123
+msgid "Website"
+msgstr ""
+
+#: content-archive.php:25 content.php:16 template-parts/related-posts.php:52
+msgid "Read More"
+msgstr ""
+
+#: content-none.php:2
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:6
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: content-none.php:7
+msgid "Get started here"
+msgstr ""
+
+#: content-none.php:12
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:19
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:21 content-single.php:8 single.php:69
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:25 content-single.php:12 single.php:73
+#: includes/themeton-redux/options-init.php:1148
+msgid "Page"
+msgstr ""
+
+#: content-portfolio.php:5 content-service.php:5 includes/template-tags.php:522
+#: includes/template-tags.php:536
+#: includes/vc-elements/Extend-tab/Extend-tab.php:130
+msgid "Icon"
+msgstr ""
+
+#: content-single.php:5
+msgid "Written by "
+msgstr ""
+
+#: content-single.php:5
+msgid "on"
+msgstr ""
+
+#: footer.php:30
+msgid "All Right Reserved 2019."
+msgstr ""
+
+#: functions.php:30
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:108 functions.php:123
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:136
+msgid "Footer Column"
+msgstr ""
+
+#: functions.php:138
+msgid "Add widgets here to appear in your footer column"
+msgstr ""
+
+#: functions.php:167
+msgid "Label"
+msgstr ""
+
+#: functions.php:417
+msgid " ..."
+msgstr ""
+
+#: functions.php:452 framework/functions/functions.breadcrumb.php:81
+#: includes/template-tags.php:635
+msgid "Home"
+msgstr ""
+
+#: functions.php:453
+msgid "Archive"
+msgstr ""
+
+#: functions.php:454
+msgid "Search"
+msgstr ""
+
+#: functions.php:575
+msgid "ago"
+msgstr ""
+
+#: search.php:55 search.php:74
+msgid "Your search term cannot be found"
+msgstr ""
+
+#: search.php:56 search.php:75
+msgid ""
+"Sorry, the post you are looking for is not available. Maybe you want to "
+"perform a search?"
+msgstr ""
+
+#: search.php:59 search.php:78
+msgid "For best search results, mind the following suggestions:"
+msgstr ""
+
+#: search.php:61 search.php:80
+msgid "Always double check your spelling."
+msgstr ""
+
+#: search.php:62 search.php:81
+msgid "Try similar keywords, for example: tablet instead of laptop."
+msgstr ""
+
+#: search.php:63 search.php:82
+msgid "Try using more than one keyword."
+msgstr ""
+
+#: searchform.php:2
+msgid "Search ..."
+msgstr ""
+
+#: single.php:90
+msgid "Categories: "
+msgstr ""
+
+#: single.php:103
+msgid "Tags: "
+msgstr ""
+
+#: taxonomy-faq_category.php:14
+msgid "All"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:393
+#: framework/classes/class-tgm-plugin-activation.php:912
+#: framework/classes/class-tgm-plugin-activation.php:2618
+#: framework/classes/class-tgm-plugin-activation.php:3666
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:394
+#: framework/classes/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:395
+#: framework/classes/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1019
+#: framework/classes/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:1206
+#: framework/classes/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3594
+#: framework/classes/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3594
+#: framework/classes/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3604
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/classes/class-tgm-plugin-activation.php:3606
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:134
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:170
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:243
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:392
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:452
+msgid "Invalid author mapping"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:553
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:641
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:651
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:724
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:738
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:759
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1528
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:764
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:909
+msgid "Invalid file type"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1367
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1380
+#, php-format
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1384
+#, php-format
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1513
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1533
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1577
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1590
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1595
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1601
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1622
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1636
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1641
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1656
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1661
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1687
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1698
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1743
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1748
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1771
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1775
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1790
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1794
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: framework/classes/lib/wxr-importer/class-wxr-importer.php:1811
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: framework/functions/functions.breadcrumb.php:79
+msgid "Error 404: Page not found"
+msgstr ""
+
+#: framework/functions/functions.breadcrumb.php:80
+msgid "Archives for"
+msgstr ""
+
+#: framework/functions/functions.breadcrumb.php:82
+msgid "You searched for"
+msgstr ""
+
+#: includes/demo-import.php:46
+msgid ""
+"After you import this demo, you will have to setup the slider separately."
+msgstr ""
+
+#: includes/extend-vc-row.php:81
+msgid "Overlay"
+msgstr ""
+
+#: includes/extend-vc-row.php:84
+#: includes/vc-elements/Extend-tab/Extend-tab.php:84
+#: includes/vc-elements/Extend-tab/Extend-tab.php:94
+#: includes/vc-elements/Extend-tour/Extend-tour.php:71
+msgid "No"
+msgstr ""
+
+#: includes/extend-vc-row.php:85
+#: includes/vc-elements/Extend-tab/Extend-tab.php:83
+#: includes/vc-elements/Extend-tab/Extend-tab.php:93
+#: includes/vc-elements/Extend-tour/Extend-tour.php:70
+msgid "Yes"
+msgstr ""
+
+#: includes/extend-vc-row.php:91
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/mega-menu/index.php:26
+msgid "Select Mega Menu"
+msgstr ""
+
+#: includes/plugins.php:18
+msgid "Redux Framework"
+msgstr ""
+
+#: includes/plugins.php:25
+msgid "WPBakery Visual Composer"
+msgstr ""
+
+#: includes/plugins.php:34
+msgid "ThemeTon Addon"
+msgstr ""
+
+#: includes/plugins.php:43
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/plugins.php:52
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/plugins.php:57
+msgid "Mailchimp Form"
+msgstr ""
+
+#: includes/template-tags.php:167 includes/template-tags.php:171
+msgid "Ratio"
+msgstr ""
+
+#: includes/template-tags.php:499
+msgid "Ratio image"
+msgstr ""
+
+#: includes/template-tags.php:580
+msgid "Related"
+msgstr ""
+
+#: includes/template-tags.php:609
+msgid "Shop"
+msgstr ""
+
+#: includes/template-tags.php:616
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: includes/template-tags.php:620
+#, php-format
+msgid "For: %s"
+msgstr ""
+
+#: includes/template-tags.php:627
+msgid "Blog"
+msgstr ""
+
+#: includes/template-tags.php:629
+msgid "Projects"
+msgstr ""
+
+#: includes/template-tags.php:638
+msgid "404 Page"
+msgstr ""
+
+#: includes/template-tags.php:667
+msgid "Insert Column number"
+msgstr ""
+
+#: includes/themeton-redux/demo-addon.php:78
+msgid "Best if used on new WordPress install."
+msgstr ""
+
+#: includes/themeton-redux/demo-addon.php:79
+msgid "Images are for demo purpose only."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:94
+#: includes/themeton-redux/options-init.php:270
+#: includes/themeton-redux/options-init.php:353
+msgid "Section Options"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:100
+msgid "Header Behaviour"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:112
+msgid "Header Background"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:119
+msgid "Mobile Header Background"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:129
+msgid "Header Section Padding"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:137
+msgid ""
+"Overall header padding space. You can set specific space on every single row "
+"as well."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:145
+msgid "Header Section Margin"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:153
+msgid ""
+"Overall header margin space. You can set specific space on every single row "
+"as well."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:160
+msgid "Menu Design Options"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:170
+msgid "Menu Item Padding"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:182
+msgid "Menu font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:183
+msgid "These settings control the typography for only top level menus."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:197
+msgid "Menu color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:198
+#: includes/themeton-redux/options-init.php:244
+msgid "Only color validation can be done on this field type"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:199
+#: includes/themeton-redux/options-init.php:245
+#: includes/themeton-redux/options-init.php:1248
+#: includes/themeton-redux/options-init.php:1283
+#: includes/themeton-redux/options-init.php:1292
+#: includes/themeton-redux/options-init.php:1371
+#: includes/themeton-redux/options-init.php:1429
+#: includes/themeton-redux/options-init.php:1439
+msgid "This is the description field, again good for additional info."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:208
+msgid "Dropdown Menu Item Padding"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:220
+msgid "Dropdown menu font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:221
+msgid "These settings control the typography for all dropdown menus."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:235
+msgid "Dropdown Menu Background Color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:243
+msgid "Dropdown Menu Link Color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:250
+msgid "Dropdown Menu Border Line Color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:260
+msgid "Header Options"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:276
+#: includes/themeton-redux/options-init.php:999
+msgid "Page Title Background"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:286
+msgid "Page title section padding"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:301
+msgid "Page title section margin"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:314
+#: includes/themeton-redux/options-init.php:397
+msgid "Text Design Options"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:320
+msgid "Section font style"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:334
+#: includes/themeton-redux/options-init.php:772
+msgid "Text Color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:343
+msgid "Page Title Options"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:359
+msgid "Footer Background"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:369
+msgid "Footer Section Padding"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:384
+msgid "Footer Section Margin"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:403
+msgid "Footer Widget title font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:416
+msgid "Footer text font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:429
+msgid "Link Color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:437
+msgid "Link hover color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:445
+msgid "Link active color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:455
+msgid "Footer Options"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:510
+msgid "Option"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:516
+msgid "Theme Options"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:620
+msgid "General"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:629
+msgid "Container width"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:641
+msgid "Select Preloader"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:673
+msgid "Site Layout"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:674
+msgid "You can choose between Wide, Boxed or Attached layout."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:694
+msgid "Attached layout top space"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:700
+#: includes/themeton-redux/options-init.php:711
+msgid "Only works with Attached Layout."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:705
+msgid "Attached layout bottom space"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:717
+msgid "Body Background"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:726
+msgid "Content area top space"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:736
+msgid "Content area bottom space"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:747
+msgid "Color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:755
+msgid "Brand Color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:756
+msgid "Pick a color for the theme (default: #63599e)."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:764
+msgid "Title Heading Color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:765
+msgid "H1-H6 (default: #10242b)."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:773
+msgid "Pick a color for the theme (default: #5c666a)."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:781
+msgid "Ancient 1 Color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:782
+msgid "Pick a color for the theme (default: #e9563d)."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:791
+msgid "Ancient 2 Color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:792
+msgid "Pick a color for the theme (default: #67b930)."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:801
+msgid "Body Background Color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:802
+#: includes/themeton-redux/options-init.php:811
+msgid "Pick a color for the theme (default: #ffffff)."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:810
+msgid "Outer Boxed Area Background Color"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:821
+msgid "Font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:829
+msgid "Logo font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:841
+msgid "Body font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:860
+msgid "Heading (H1) font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:872
+msgid "Heading (H2) font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:884
+msgid "Heading (H3) font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:896
+msgid "Heading (H4) font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:908
+msgid "Heading (H5) font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:920
+msgid "Heading (H6) font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:932
+msgid "Sidebar title font"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:946
+msgid "Header"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:955
+msgid "Header Layout"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:963
+msgid "Logo image"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:964
+msgid ""
+"Upload your logo image. If you leave it empty, your logo will show as text "
+"with your site title."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:972
+msgid "Header sticky background"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:990
+msgid "Page title"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1008
+msgid "Page Title Layout"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1016
+msgid "Footer"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1025
+msgid "Themeton Footer Layout"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1032
+msgid "Copyright text"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1041
+msgid "Post"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1049
+#: includes/themeton-redux/options-init.php:1124
+#: includes/themeton-redux/options-init.php:1212
+#: includes/themeton-redux/options-init.php:1300
+#: includes/themeton-redux/options-init.php:1325
+msgid "Top featured image"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1050
+#: includes/themeton-redux/options-init.php:1247
+#: includes/themeton-redux/options-init.php:1282
+#: includes/themeton-redux/options-init.php:1291
+#: includes/themeton-redux/options-init.php:1370
+#: includes/themeton-redux/options-init.php:1428
+#: includes/themeton-redux/options-init.php:1438
+msgid "No validation can be done on this field type"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1057
+msgid "Post Layout"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1058
+msgid "Declare default post layout."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1083
+msgid "Post right sidebar"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1084
+msgid "Declare default right sidebar area."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1091
+msgid "Post left sidebar"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1092
+msgid "Declare default sidebar area."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1100
+#: template-parts/related-posts.php:22
+msgid "Related Posts"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1101
+#: includes/themeton-redux/options-init.php:1118
+#: includes/themeton-redux/options-init.php:1125
+#: includes/themeton-redux/options-init.php:1132
+#: includes/themeton-redux/options-init.php:1139
+#: includes/themeton-redux/options-init.php:1157
+#: includes/themeton-redux/options-init.php:1206
+#: includes/themeton-redux/options-init.php:1213
+#: includes/themeton-redux/options-init.php:1220
+#: includes/themeton-redux/options-init.php:1227
+#: includes/themeton-redux/options-init.php:1301
+#: includes/themeton-redux/options-init.php:1319
+#: includes/themeton-redux/options-init.php:1326
+#: includes/themeton-redux/options-init.php:1333
+#: includes/themeton-redux/options-init.php:1340
+#: includes/themeton-redux/options-init.php:1347
+#: includes/themeton-redux/options-init.php:1356
+#: includes/themeton-redux/options-init.php:1363
+#: includes/themeton-redux/options-init.php:1456
+msgid "Please turn this off (uncheck) if you want to disable it."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1107
+msgid "Related posts number"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1117
+msgid "Post title enabled"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1131
+#: includes/themeton-redux/options-init.php:1219
+#: includes/themeton-redux/options-init.php:1339
+msgid "Author Info Box"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1138
+msgid "Post Meta Details"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1156
+msgid "Hide top featured image"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1164
+msgid "Page Layout"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1165
+msgid "Declare default page layout."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1189
+msgid "Page right sidebar"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1190
+#: includes/themeton-redux/options-init.php:1198
+msgid "Please select default page left sidebar"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1197
+msgid "Page left sidebar"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1205
+msgid "Page title enabled"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1226
+msgid "Page Meta Details"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1236
+msgid "Portfolio"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1246
+msgid "Portfolio Main Page"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1256
+msgid "Portfolio Detail Page Layout"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1257
+msgid "Declare portfolio default layout."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1281
+msgid "Portfolio right sidebar"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1290
+msgid "Portfolio left sidebar"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1307
+msgid "Related portfolios number"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1318
+msgid "Portfolio singular title enabled"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1332
+msgid "Next & Previous links"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1346
+#: includes/themeton-redux/options-init.php:1362
+msgid "Portfolio Meta Details"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1355
+msgid "Portfolio Description"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1369
+msgid "Portfolio Category Layout"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1380
+msgid "Excerpt length"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1393
+msgid "Archive, Cat & Tags"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1402
+msgid "Archive Layout"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1403
+msgid ""
+"Declare archive default layout. Specially for all regular sections including "
+"index page and custom taxonomy etc."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1427
+msgid "Archive right sidebar"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1437
+msgid "Archive left sidebar"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1447
+msgid "Archive Posts Style"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1448
+msgid "Declare archive default style."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1455
+msgid "Archive Meta Details"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1463
+msgid "Sidebar"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1472
+msgid "Sidebars"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1473
+msgid ""
+"Please add your custom sidebars here and insert widgets on Appearance => "
+"Widgets. Left and Right sidebars are permanently and won't be deleted."
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1485
+msgid "404 page"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1494
+msgid "Error page main page"
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1495
+msgid "404 page "
+msgstr ""
+
+#: includes/themeton-redux/options-init.php:1496
+msgid "Select from page"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:69
+msgid "Tabs Style"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:72
+#: includes/vc-elements/Extend-tour/Extend-tour.php:60
+#: includes/vc-extend/themeton-builder.php:85
+#: includes/vc-extend/themeton-builder.php:100
+#: includes/vc-extend/themeton-builder.php:114
+#: includes/vc-extend/themeton-builder.php:170
+#: includes/vc-extend/themeton-builder.php:197
+#: includes/vc-extend/themeton-builder.php:212
+#: includes/vc-extend/themeton-builder.php:226
+msgid "Default"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:73
+msgid "Process (beautiful, allows process line)"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:74
+msgid "Service (creative, left 50% navigations)"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:80
+#: includes/vc-elements/Extend-tour/Extend-tour.php:67
+msgid "Show Process Number"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:90
+#: includes/vc-elements/Extend-tab/Extend-tab.php:151
+msgid "Sub title add"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:100
+#: includes/vc-elements/Extend-tour/Extend-tour.php:87
+msgid "Content Background Image"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:107
+#: includes/vc-elements/Extend-tour/Extend-tour.php:94
+msgid "Background Image Brightness"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:110
+#: includes/vc-elements/Extend-tour/Extend-tour.php:97
+msgid "Dark"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:111
+#: includes/vc-elements/Extend-tour/Extend-tour.php:98
+msgid "Light"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:119
+msgid "Icon Type"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:144
+msgid "Image Image"
+msgstr ""
+
+#: includes/vc-elements/Extend-tab/Extend-tab.php:158
+#: includes/vc-elements/Extend-tour/Extend-tour.php:105
+msgid "Process number"
+msgstr ""
+
+#: includes/vc-elements/Extend-tour/Extend-tour.php:56
+msgid "Tour Style"
+msgstr ""
+
+#: includes/vc-elements/Extend-tour/Extend-tour.php:58
+#: includes/vc-elements/Extend-tour/Extend-tour.php:81
+#: includes/vc-extend/themeton-builder.php:92
+#: includes/vc-extend/themeton-builder.php:106
+#: includes/vc-extend/themeton-builder.php:120
+#: includes/vc-extend/themeton-builder.php:129
+#: includes/vc-extend/themeton-builder.php:138
+#: includes/vc-extend/themeton-builder.php:153
+#: includes/vc-extend/themeton-builder.php:189
+#: includes/vc-extend/themeton-builder.php:204
+#: includes/vc-extend/themeton-builder.php:218
+#: includes/vc-extend/themeton-builder.php:234
+#: includes/vc-extend/themeton-builder.php:243
+#: includes/vc-extend/themeton-builder.php:252
+msgid "Themeton"
+msgstr ""
+
+#: includes/vc-elements/Extend-tour/Extend-tour.php:61
+msgid "Service "
+msgstr ""
+
+#: includes/vc-elements/Extend-tour/Extend-tour.php:78
+msgid "Title"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:82
+#: includes/vc-extend/themeton-builder.php:86
+msgid "Container"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:87
+msgid "Small container"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:88
+msgid "Large container"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:89
+msgid "Expand container"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:91
+msgid "Container blabla"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:97
+#: includes/vc-extend/themeton-builder.php:105
+#: includes/vc-extend/themeton-builder.php:209
+#: includes/vc-extend/themeton-builder.php:217
+msgid "Vertical alignment"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:101
+#: includes/vc-extend/themeton-builder.php:213
+msgid "Top"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:102
+#: includes/vc-extend/themeton-builder.php:214
+msgid "Middle"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:103
+#: includes/vc-extend/themeton-builder.php:215
+msgid "Bottom"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:111
+msgid "Flex"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:115
+msgid "Uk Flex"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:116
+msgid "Uk Grid"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:117
+msgid "Uk Navbar"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:119
+msgid "uk-flex, uk-grid"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:125
+#: includes/vc-extend/themeton-builder.php:248
+msgid "Height"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:128
+msgid "Row height blabla"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:134
+#: includes/vc-extend/themeton-builder.php:239
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:137
+#: includes/vc-extend/themeton-builder.php:242
+msgid "Custom css blabla"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:144
+#: includes/vc-extend/themeton-builder.php:148
+msgid "Sticky"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:147
+msgid "Scroll"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:149
+msgid "Up sticky"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:150
+msgid "Fixed"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:152
+msgid "Sticky blabla"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:167
+msgid "Column flex"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:171
+msgid "Auto"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:172
+msgid "Expand"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:173
+msgid "Navbar Left"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:174
+msgid "Navbar Right"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:175
+msgid "1/1"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:176
+msgid "1/2"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:177
+msgid "1/3"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:178
+msgid "2/3"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:179
+msgid "1/4"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:180
+msgid "3/4"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:181
+msgid "1/5"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:182
+msgid "2/5"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:183
+msgid "3/5"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:184
+msgid "4/5"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:185
+msgid "1/6"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:186
+msgid "5/6"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:188
+msgid "blablablablalb"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:194
+msgid "Text Alignment"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:198
+#: includes/vc-extend/themeton-builder.php:227
+msgid "Left"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:199
+#: includes/vc-extend/themeton-builder.php:228
+msgid "Right"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:200
+#: includes/vc-extend/themeton-builder.php:229
+msgid "Center"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:201
+msgid "Justify"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:203
+msgid "text alignment blabla"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:223
+#: includes/vc-extend/themeton-builder.php:233
+msgid "Horizontal alignment"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:230
+msgid "Between"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:231
+msgid "Around"
+msgstr ""
+
+#: includes/vc-extend/themeton-builder.php:251
+msgid "Column height blabla"
+msgstr ""
+
+#: template-parts/error-page.php:6
+msgid "Page not found"
+msgstr ""
+
+#: template-parts/error-page.php:7
+msgid "The requested page was not found."
+msgstr ""
+
+#: template-parts/error-page.php:8
+msgid "Back to Home page"
+msgstr ""
+
+#: tribe-events/modules/bar.php:44
+msgid "Search "
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:48
+msgid "Time:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:55
+#: tribe-events/modules/meta/venue.php:43
+msgid "Date & time"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:63
+#: tribe-events/modules/meta/details.php:87
+msgid "Start:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:67
+#: tribe-events/modules/meta/details.php:92
+msgid "End:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:77
+#: tribe-events/modules/meta/details.php:102
+msgid "Date:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:120
+msgid "Cost:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:139
+#, php-format
+msgid "%s Tags:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:145
+#: tribe-events/modules/meta/venue.php:80
+msgid "Website:"
+msgstr ""
+
+#: tribe-events/modules/meta/venue.php:51
+msgid "Address"
+msgstr ""
+
+#: tribe-events/modules/meta/venue.php:73
+msgid "Phone:"
+msgstr ""
+
+#: woocommerce/cart/cart.php:27
+msgid "Your Cart Items"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31
+msgid "Product Name"
+msgstr ""
+
+#: woocommerce/cart/cart.php:32
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:37
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cart.php:72
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:106
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:127
+msgid "Coupon Discount"
+msgstr ""
+
+#: woocommerce/cart/cart.php:129
+msgid "Enter your coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:130
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:146
+msgid "Sub totaL: "
+msgstr ""
+
+#: woocommerce/cart/cart.php:149
+msgid "Grand total: "
+msgstr ""
+
+#: woocommerce/cart/cart.php:174 woocommerce/cart/cart.php:175
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart.php:190
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart.php:210
+msgid "Proceed to checkout"
+msgstr ""

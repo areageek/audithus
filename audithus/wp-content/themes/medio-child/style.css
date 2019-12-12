@@ -1,0 +1,105 @@
+/*
+ Theme Name:   medio child
+ Theme URI:    http://demo.themeton.com/medio
+ Description:  medio Child Theme
+ Author:       ThemeTon
+ Author URI:   http://themeton.com
+ Template:     medio
+ Version:      1.0
+*/
+
+/* Theme customization starts here
+  -------------------------------------------------------------- */
+  
+  
+  .uk-logo{
+	  max-width: 200px;
+  }
+  #header {
+    background-color: #33cccc !important;
+}
+.themeton-menu > li:hover > a, .themeton-menu > li.current-menu-item > a, .themeton-menu > li.current_page_item > a, .themeton-menu > li.current-menu-ancestor > a {
+    background: #094979 !important;
+    border-right-color: #07BCD5 !important;
+    color: #fff;
+}
+.widget .widget-title{
+	color: #fff !important;
+}
+
+footer{
+	background-color: #33cccc !important; 
+}
+.footer-column .footer_widget{
+	color: #FFF;
+}
+#text-3 .widget-title{
+	color: #33cccc !important;
+}
+.uk-text-center.pv2{
+	color: #fff;
+}
+
+.tab-quem-somos .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab .vc_tta-title-text{
+	color: #094a79 !important;
+}
+
+.tab-quem-somos .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active .vc_tta-title-text{
+	color: #3cc !important;
+}
+
+.bt-calltoaction{
+background-color: #33cccc;
+	
+}
+
+.bt-calltoaction .vc_cta3_content-container .vc_cta3-content header{
+	background: none !important;
+	color: #fff !important;
+}
+.bt-calltoaction .vc_cta3_content-container .vc_cta3-content header h2{
+margin: 0 !important;
+text-align: left !important;
+}
+.bt-calltoaction .vc_cta3_content-container .vc_cta3-content header h4{
+margin: 0 !important;
+}
+
+.bt-calltoaction .vc_cta3_content-container .vc_cta3-content{
+	margin: 0 18% 0 2%;
+}
+.bt-calltoaction .vc_cta3_content-container .vc_cta3-action{
+	margin: 0 5%;
+}
+.bt-calltoaction .vc_cta3_content-container{
+display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center
+}
+
+
+
+
+
+.bt-streamlinetv{
+	border-radius: 50px;
+}
+.related_post .related-container .service-item-section .related_thumb {
+    border-radius: 50px 0 0 0 !important;
+}
+.service-item-section .entry-meta {
+    background-color: #00cdcd !important;
+    border-radius: 0 0 50px 0 !important;
+}
+.service-item-section .entry-meta h3 {
+    color: #fff;
+    }
+
+.service-item-section {
+    border: 0px !important;
+
+}
+
+
+

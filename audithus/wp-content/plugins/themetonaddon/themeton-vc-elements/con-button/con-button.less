@@ -1,0 +1,20 @@
+.uk-flex-block a {
+    width: 100%;
+}
+
+.mungu-button {
+    a {
+        &:hover {
+            color: #fff;
+        }
+        span {
+            display: none
+        }
+    }
+    &.uk-float-left+.mungu-button.uk-float-left {
+        margin-left: 10px;
+    }
+    &.uk-float-right+.mungu-button.uk-float-right {
+        margin-right: 10px;
+    }
+}

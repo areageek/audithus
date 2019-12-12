@@ -1,0 +1,14 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	die( '-1' );
+}
+
+return array(
+	'name' => esc_html__( 'hotel header', 'themetonaddon' ),
+	'image_path' => 'http://themeton.com/themetonaddon/themeton-vc-blocks/'.basename(dirname(__FILE__)).'/'.'hotel-header.jpg',
+	'cat_display_name' => 'Header & Footer',
+	'custom_class' => 'mungu_vc_templates-1',
+	'content' => <<<CONTENT
+[vc_row full_width="stretch_row" content_placement="middle" css=".vc_custom_1509592346511{border-bottom-width: 1px !important;border-bottom-color: rgba(255,255,255,0.3) !important;border-bottom-style: solid !important;}"][vc_column width="1/4"][logo 0=""][/vc_column][vc_column width="3/4" css=".vc_custom_1508988405410{border-right-width: 1px !important;border-left-width: 1px !important;padding-right: 0px !important;padding-left: 0px !important;border-left-color: rgba(255,255,255,0.3) !important;border-left-style: solid !important;border-right-color: rgba(255,255,255,0.3) !important;border-right-style: solid !important;}"][header_container item_flex="uk-child-width-expand"][header_content halign="uk-flex-middle"][vc_icon icon_fontawesome="fa fa-envelope-o" color="white" size="sm" css=".vc_custom_1508988648764{margin-bottom: 0px !important;}"][vc_custom_heading text="info@next.com" font_container="tag:p|text_align:left|color:%23ffffff" use_theme_fonts="yes" link="url:%23|||" css=".vc_custom_1508995555236{margin-top: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;}"][vc_icon type="openiconic" icon_openiconic="vc-oi vc-oi-mobile" color="white" size="sm" css=".vc_custom_1508995888501{margin-bottom: 0px !important;}"][vc_custom_heading text="905-669-2017" font_container="tag:p|text_align:left|color:%23ffffff" use_theme_fonts="yes" link="url:%23|||" css=".vc_custom_1508995562515{margin-top: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;}"][/header_content][header_content align="uk-flex-right"][vc_icon icon_fontawesome="fa fa-facebook" color="white" size="xs" link="url:%23|||" css=".vc_custom_1508995929563{margin-bottom: 0px !important;}"][vc_icon icon_fontawesome="fa fa-linkedin" color="white" size="xs" link="url:%23|||" css=".vc_custom_1508995975947{margin-bottom: 0px !important;margin-left: 0px !important;}"][vc_icon icon_fontawesome="fa fa-twitter" color="white" size="xs" link="url:%23|||" css=".vc_custom_1508995984890{margin-bottom: 0px !important;margin-left: 0px !important;}"][/header_content][/header_container][menu select="style1" menu="Main Menu" extra_class="uk-flex-around" menu_id="primary_ui" css=".vc_custom_1509339471052{margin-top: 0px !important;border-top-width: 1px !important;border-top-color: rgba(255,255,255,0.3) !important;border-top-style: solid !important;}"][/vc_column][/vc_row]
+CONTENT
+);

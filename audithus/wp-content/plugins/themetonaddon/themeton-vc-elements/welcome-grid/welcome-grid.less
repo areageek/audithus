@@ -1,0 +1,64 @@
+.demo-grid {
+    img {
+        border-radius: 5px;
+    }
+    .uk-transition-fade {
+        border-radius: 5px;
+        p {
+            color: #fff;
+            font-size: 17px;
+        }
+    }
+    .uk-card-default {
+        background: transparent;
+        color: #fff;
+        box-shadow: none;
+    }
+    .uk-card-body {
+        padding-top: 30px;
+    }
+    .uk-button-text {
+        color: #fff !important;
+        font-size: 1.2em;
+        &:hover {
+            text-decoration: none !important;
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 100%;
+            border-bottom: 1px solid #fff;
+            -webkit-transition: right 0.3s ease-out;
+            transition: right 0.3s ease-out;
+        }
+    }
+    .uk-card-media-top {
+        -webkit-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+        &:hover {
+            box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.48);
+        }
+    }
+    
+    .uk-grid-medium>* {
+        margin-bottom: 33px;
+    }
+    .purchase-now-pink {
+        width: 360px;
+        background: #fc2a5f;
+        height: 407px;
+        border-radius: 5px;
+        .uk-button-danger {
+            border-radius: 5px;
+            box-shadow: 0px 11px 20px 0px rgba(0,0,0,.38);
+            transition: all .3s ease;
+            &:hover {
+                box-shadow: 0px 9px 20px 0px rgba(0,0,0,.38);
+                transition: all .3s ease;
+            }
+        }
+    }
+}

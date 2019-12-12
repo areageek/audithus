@@ -1,0 +1,15 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	die( '-1' );
+}
+
+return array(
+	'name' => esc_html__( 'hosting domain faq', 'themetonaddon' ),
+	'image_path' => 'http://themeton.com/themetonaddon/themeton-vc-blocks/'.basename(dirname(__FILE__)).'/'.'hosting-domain-faq.jpg',
+	'cat_display_name' => 'faqs',
+	'custom_class' => 'mungu_vc_templates-1',
+	'content' => <<<CONTENT
+[vc_row css=".vc_custom_1510299758232{padding-top: 50px !important;padding-bottom: 50px !important;}"][vc_column width="1/6"][/vc_column][vc_column width="2/3"][vc_custom_heading text="Frequently<br />
+Asked Questions" font_container="tag:h2|font_size:28px%20|text_align:left" use_theme_fonts="yes" el_class="uk-text-bold "][accordion style="" multi="" group="%5B%7B%22title%22%3A%22Mauris%20in%20augue%20ultricies%2C%20hendrerit%20leo%20eu%2C%20malesuada%20purus.%22%2C%22body%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20consetetur%20sadipscing%20elitr%2C%20sed%20diam%20nonumy%20eirmod%20tempor%20invidunt%20ut%20labore%20et%20dolore%20magna%20aliquyam%20erat%2C%20sed%20diam%20voluptua.%20%22%7D%2C%7B%22title%22%3A%22Phasellus%20et%20nulla%20et%20diam%20suscipit%20euismod.%22%2C%22body%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20consetetur%20sadipscing%20elitr%2C%20sed%20diam%20nonumy%20eirmod%20tempor%20invidunt%20ut%20labore%20et%20dolore%20magna%20aliquyam%20erat%2C%20sed%20diam%20voluptua.%20%22%7D%2C%7B%22title%22%3A%22Sed%20at%20nulla%20ultricies%2C%20malesuada%20arcu%20nec%2C%20elementum%20quam.%22%2C%22body%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20consetetur%20sadipscing%20elitr%2C%20sed%20diam%20nonumy%20eirmod%20tempor%20invidunt%20ut%20labore%20et%20dolore%20magna%20aliquyam%20erat%2C%20sed%20diam%20voluptua.%20%22%7D%2C%7B%22title%22%3A%22Donec%20id%20est%20vel%20magna%20venenatis%20euismod%20ornare%20imperdiet%20tortor%22%2C%22body%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20consetetur%20sadipscing%20elitr%2C%20sed%20diam%20nonumy%20eirmod%20tempor%20invidunt%20ut%20labore%20et%20dolore%20magna%20aliquyam%20erat%2C%20sed%20diam%20voluptua.%20%22%7D%2C%7B%22title%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipiscing%20elit.%22%2C%22body%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20consetetur%20sadipscing%20elitr%2C%20sed%20diam%20nonumy%20eirmod%20tempor%20invidunt%20ut%20labore%20et%20dolore%20magna%20aliquyam%20erat%2C%20sed%20diam%20voluptua.%20%22%7D%2C%7B%22title%22%3A%22Quisque%20vel%20libero%20malesuada%2C%20tristique%20felis%20sed%2C%20varius%20tellus%22%2C%22body%22%3A%22Lorem%20ipsum%20dolor%20sit%20amet%2C%20consetetur%20sadipscing%20elitr%2C%20sed%20diam%20nonumy%20eirmod%20tempor%20invidunt%20ut%20labore%20et%20dolore%20magna%20aliquyam%20erat%2C%20sed%20diam%20voluptua.%20%22%7D%5D"][/vc_column][/vc_row][vc_row][vc_column width="1/6"][/vc_column][vc_column width="2/3"][con_button color="#ffffff" colortext="#14bb75" border="1" colorborder="#14bb75" conbutton="url:%23|title:VIEW%20FULL%20FAQ||"][con_button border="" conbutton="url:http%3A%2F%2Fnext.themeton.com%2Fhosting%2Fdomains%2F|title:SEARCH%20YOUR%20DOMAIN||"][/vc_column][/vc_row]
+CONTENT
+);

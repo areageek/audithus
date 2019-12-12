@@ -1,0 +1,70 @@
+.wpml_lan {
+    width: 115px;
+    position: relative;
+    height: 30px;
+    .languagepicker {
+        position: absolute;
+        &:hover {
+            a.item {
+                display: block;
+            }
+        }
+    }
+    ul{
+        li {
+            a.item {
+                display: none;
+            }
+            a.active {
+                display: block;
+            }
+        }
+        padding-left: 15px;
+        margin-bottom: 0;
+        list-style: none;
+            width: 95px;
+            .transition();
+            &:before{
+                content: "\f0d7";
+                display: block;
+                position: absolute;
+                font-family: FontAwesome;
+                top: 0;
+                font-size: 18px;
+                right: 20px;
+                color: #abbdd3;
+            }
+        a{
+            color:#c6d0dd;
+            text-transform: uppercase;
+            font-size: 12px; 
+            li{
+                list-style-type: none; 
+                display: none;
+            }
+            &.active{
+                display: block;
+                color: abbdd3;
+                li{
+                        display: block;
+                        opacity: 1;
+                    }
+            }
+            &:hover{
+               display: block !important;
+               color:@color-brand;
+               li{
+                    display: block;
+                }
+            }
+        }
+        &:hover{
+            background: #4c6585;
+            position: relative;
+            z-index: 9999;
+            li{
+                display: block;
+            }
+        }
+    }
+}

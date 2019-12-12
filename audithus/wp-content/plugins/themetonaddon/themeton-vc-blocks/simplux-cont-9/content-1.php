@@ -1,0 +1,14 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	die( '-1' );
+}
+
+return array(
+	'name' => esc_html__( 'Creative contents abouts c9', 'themetonaddon' ),
+	'image_path' => 'http://themeton.com/themetonaddon/themeton-vc-blocks/'.basename(dirname(__FILE__)).'/'.'c9.jpg',
+	'cat_display_name' => 'contents',
+	'custom_class' => 'mungu_vc_templates-1',
+	'content' => <<<CONTENT
+[vc_row full_width="stretch_row_content" full_height="yes" equal_height="yes" content_placement="middle"][vc_column width="1/2" css=".vc_custom_1504853495808{margin-top: 120px !important;margin-right: 150px !important;margin-bottom: 100px !important;margin-left: 150px !important;}"][vc_custom_heading text="QUICKLY INNOVATE CENTURY VISIONARY MODELS DRAMATICALLY" font_container="tag:h2|font_size:24px|text_align:left|line_height:1.2" google_fonts="font_family:Montserrat%3Aregular%2C700|font_style:400%20regular%3A400%3Anormal" el_class="letter-space-5px"][vc_empty_space height="100px"][vc_custom_heading text="ABOUT" font_container="tag:h3|text_align:left" use_theme_fonts="yes" el_class="text-700"][vc_separator color="custom" accent_color="rgba(0,0,0,0.15)"][vc_column_text]Conveniently incentivize corporate deliverables and scalable channels. Progressively parallel task highly efficient outsourcing after transparent models. Seamlessly productivate principle-centered processes rather than state of the.[/vc_column_text][vc_empty_space height="50px"][vc_row_inner][vc_column_inner width="1/2"][vc_custom_heading text="APPROACH" font_container="tag:h3|text_align:left" use_theme_fonts="yes" el_class="text-700"][vc_separator color="custom" accent_color="rgba(0,0,0,0.15)"][vc_column_text]Intrinsicly engage resource-leveling convergence vis-a-vis vertical action items. Intrinsicly streamline cross-unit core competencies performance.[/vc_column_text][/vc_column_inner][vc_column_inner width="1/2"][vc_custom_heading text="CREATIVE IDEAS" font_container="tag:h3|text_align:left" use_theme_fonts="yes" el_class="text-700"][vc_separator color="custom" accent_color="rgba(0,0,0,0.15)"][vc_column_text]Intrinsicly engage resource-leveling convergence vis-a-vis vertical action items. Intrinsicly streamline cross-unit core competencies performance.[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/2" css=".vc_custom_1506314669792{padding-top: 70px !important;padding-bottom: 70px !important;background-image: url(http://demo.themeton.com/simplux/wp-content/uploads/sites/88/2017/09/08-Choose-to-shine.jpg?id=2686) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][/vc_column][/vc_row]
+CONTENT
+);

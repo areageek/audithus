@@ -1,0 +1,14 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	die( '-1' );
+}
+
+return array(
+	'name' => esc_html__( 'model home calltoaction', 'themetonaddon' ),
+	'image_path' => 'http://themeton.com/themetonaddon/themeton-vc-blocks/'.basename(dirname(__FILE__)).'/'.'model-home-calltoaction.jpg',
+	'cat_display_name' => 'call to actions',
+	'custom_class' => 'mungu_vc_templates-1',
+	'content' => <<<CONTENT
+[vc_row full_width="stretch_row_content" equal_height="yes" css=".vc_custom_1500965599115{border-top-width: 1px !important;border-bottom-width: 1px !important;background-color: #ffffff !important;border-top-color: #f3f3f3 !important;border-top-style: solid !important;border-bottom-color: #f3f3f3 !important;border-bottom-style: solid !important;}" el_class="back-z"][vc_column width="2/12"][vc_custom_heading text="shop" font_container="tag:h1|font_size:245px|text_align:right|color:%23f3f3f3" google_fonts="font_family:Playfair%20Display%3Aregular%2Citalic%2C700%2C700italic%2C900%2C900italic|font_style:700%20bold%20regular%3A700%3Anormal" css=".vc_custom_1500966355878{margin-top: -70px !important;margin-left: 50px !important;}" el_class="uk-position-absolute"][/vc_column][vc_column width="4/12" css=".vc_custom_1500966602694{padding-left: 30px !important;}"][vc_custom_heading text="Want to shop" font_container="tag:h1|font_size:51px|text_align:left|color:%23000000" use_theme_fonts="yes" css=".vc_custom_1510135217693{margin-top: 195px !important;padding-right: 30px !important;padding-bottom: 30px !important;}"][vc_custom_heading text="This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor" font_container="tag:p|font_size:18px|text_align:left|color:%233e3e3e|line_height:40px" use_theme_fonts="yes" css=".vc_custom_1500966559018{padding-right: 30px !important;}"][vc_btn title="VISIT MY SHOP" shape="square" color="white" css=".vc_custom_1510208045925{margin-top: 50px !important;border-top-width: 2px !important;border-right-width: 2px !important;border-bottom-width: 2px !important;border-left-width: 2px !important;border-left-color: #c8c8c8 !important;border-left-style: solid !important;border-right-color: #c8c8c8 !important;border-right-style: solid !important;border-top-color: #c8c8c8 !important;border-top-style: solid !important;border-bottom-color: #c8c8c8 !important;border-bottom-style: solid !important;border-radius: 4px !important;}" link="url:%23|||" el_class="shop_btn"][/vc_column][vc_column width="1/12"][/vc_column][vc_column width="5/12" css=".vc_custom_1500949682496{background-color: #fedf82 !important;}"][vc_single_image image="1477" img_size="full" css=".vc_custom_1500950055875{margin-top: 65px !important;margin-bottom: 100px !important;margin-left: -190px !important;}"][/vc_column][/vc_row]
+CONTENT
+);

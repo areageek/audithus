@@ -1,0 +1,15 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	die( '-1' );
+}
+return array(
+	'name' => esc_html__( 'Footer layout 8', 'themetonaddon' ),
+	'image_path' => 'http://themeton.com/themetonaddon/themeton-vc-blocks/'.basename(dirname(__FILE__)).'/'.'footer08.jpg',
+	'cat_display_name' => 'Header & Footer',
+	'custom_class' => 'tt_vc_templates-1',
+	'content' => <<<CONTENT
+	[vc_row full_width="stretch_row" css=".vc_custom_1503563338880{background-color: #202227 !important;}"][vc_column 0=""][vc_row_inner 0="" css=".vc_custom_1503628091505{padding-bottom: 35px !important;}"][vc_column_inner el_class="uk-text-center"][logo 0="" logo="custom_logo" image="2390" link="url:http%3A%2F%2Fdemo.themeton.com%2Fsimplux%2Fhome-pages%2Fdemo-9%2F|||"][/vc_column_inner][/vc_row_inner][vc_row_inner 0=""][vc_column_inner width="1/3"][vc_custom_heading text="EMAIL" font_container="tag:p|font_size:18|text_align:center|color:rgba(255%2C255%2C255%2C0.5)" use_theme_fonts="yes"][vc_custom_heading text="info@simplux.com" font_container="tag:p|font_size:18|text_align:center|color:%23ffffff" use_theme_fonts="yes" link="url:%23|||"][/vc_column_inner][vc_column_inner width="1/3" css=".vc_custom_1503564742204{border-right-width: 1px !important;border-left-width: 1px !important;padding-top: 0px !important;border-left-color: #fff861 !important;border-left-style: solid !important;border-right-color: #fff861 !important;border-right-style: solid !important;}"][vc_custom_heading text="CALL" font_container="tag:p|font_size:18|text_align:center|color:rgba(255%2C255%2C255%2C0.5)" use_theme_fonts="yes"][vc_custom_heading text="+88 846 898 852" font_container="tag:p|font_size:18|text_align:center|color:%23ffffff" use_theme_fonts="yes" link="url:%23|||"][/vc_column_inner][vc_column_inner width="1/3"][vc_custom_heading text="FIND" font_container="tag:p|font_size:18|text_align:center|color:rgba(255%2C255%2C255%2C0.5)" use_theme_fonts="yes"][vc_custom_heading text="District 7, HCMA, Australia" font_container="tag:p|font_size:18|text_align:center|color:%23ffffff" use_theme_fonts="yes" link="url:%23|||"][/vc_column_inner][/vc_row_inner][vc_row_inner 0=""][vc_column_inner el_id="footer-flex-center"][vc_icon icon_fontawesome="fa fa-facebook" color="custom" size="xs" custom_color="#f5f5f7" link="url:%23|||" el_class="float-left"][vc_icon icon_fontawesome="fa fa-twitter" color="custom" size="xs" custom_color="#f5f5f7" link="url:%23|||" el_class="float-left"][vc_icon icon_fontawesome="fa fa-vimeo" color="custom" size="xs" custom_color="#f5f5f7" link="url:%23|||" el_class="float-left"][vc_icon icon_fontawesome="fa fa-behance" color="custom" size="xs" custom_color="#f5f5f7" link="url:%23|||" el_class="float-left"][vc_icon icon_fontawesome="fa fa-instagram" color="custom" size="xs" custom_color="#f5f5f7" link="url:%23|||" el_class="float-left"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1503563345161{background-color: #2b2d33 !important;}"][vc_column 0=""][vc_column_text 0=""]
+<p style="text-align: center">All Right Reserved 2017.</p>
+[/vc_column_text][/vc_column][/vc_row]
+CONTENT
+);

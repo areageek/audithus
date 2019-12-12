@@ -1,0 +1,20 @@
+.alert-box {
+  min-height: 36px;
+  padding: 18px 35px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+.alert-box a {
+  text-decoration: none;
+}
+.alert-box h3 {
+  color: #fff;
+  font-weight: 600;
+  line-height: 36px;
+}
+.alert-box .icon {
+  margin-right: 20px;
+}
+.alert-box .icon i {
+  line-height: 36px;
+}

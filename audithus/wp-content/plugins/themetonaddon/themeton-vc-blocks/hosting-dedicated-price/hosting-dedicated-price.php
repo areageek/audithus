@@ -1,0 +1,16 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	die( '-1' );
+}
+
+return array(
+	'name' => esc_html__( 'hosting dedicated price', 'themetonaddon' ),
+	'image_path' => 'http://themeton.com/themetonaddon/themeton-vc-blocks/'.basename(dirname(__FILE__)).'/'.'hosting-dedicated-price.jpg',
+	'cat_display_name' => 'pricing tables',
+	'custom_class' => 'mungu_vc_templates-1',
+	'content' => <<<CONTENT
+[vc_row][vc_column][vc_custom_heading text="Pricing plans" font_container="tag:h2|font_size:28px%20|text_align:center" use_theme_fonts="yes" css=".vc_custom_1510311177130{margin-bottom: 5px !important;}" el_class="uk-text-bold "][/vc_column][/vc_row][vc_row full_width="stretch_row" css=".vc_custom_1510303827503{background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_column width="1/3"][/vc_column][vc_column width="2/3" css=".vc_custom_1510314477623{margin-left: -30px !important;}"][pricetable style_layout="style4" list="%5B%7B%22name%22%3A%22basic%20plan%22%2C%22price%22%3A%22%244.99%22%2C%22subtitle%22%3A%22PER%20MONTHd%22%2C%22button_name%22%3A%22Buy%20now%22%2C%22button_url%22%3A%22%23%22%7D%2C%7B%22name%22%3A%22premium%20plan%22%2C%22price%22%3A%22%244.99%22%2C%22subtitle%22%3A%22PER%20MONTH%22%2C%22button_name%22%3A%22Buy%20now%22%2C%22button_url%22%3A%22%23%22%7D%2C%7B%22name%22%3A%22gold%20plan%22%2C%22price%22%3A%22%244.99%22%2C%22subtitle%22%3A%22PER%20MONTH%22%2C%22button_name%22%3A%22Buy%20now%22%2C%22button_url%22%3A%22%23%22%7D%5D" hover="" title="d" body="dd" price="dfgdf"][/vc_column][/vc_row][vc_row][vc_column][vc_table el_class="hosting"][b]Number%20of%20Websites,[b]2%20%20%20%20%20%20%20%20%20%20%20%20%20website,[b]Unlimited%20Website,[b]Unlimited%20Website|[b]Web%20Space,500%20mb,2%20gb,10%20gb|[b]MySQL%20Databases,%26%239989,%26%239989,%26%239989|[b]Free%20Daily%20Backups,%26%2310060,%26%239989,%26%239989|[b]99.9%25%20Uptime%20Guarantee,%26%2310060,%26%239989,%26%239989|[b]Bandwidth,10%20gb,10%20gb,20%20gb|[b]Website%20Builder,%26%2310060,%26%239989,%26%239989[/vc_table][/vc_column][/vc_row][vc_row css=".vc_custom_1510322156348{margin-right: 3px !important;margin-left: 3px !important;border-bottom-width: 1px !important;padding-bottom: 40px !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;border-bottom-color: #d9e7ec !important;border-bottom-style: solid !important;}"][vc_column width="1/3"][/vc_column][vc_column width="2/3" css=".vc_custom_1510321845219{margin-left: -30px !important;padding-top: 0px !important;}"][vc_row_inner][vc_column_inner width="1/3"][con_button border="" conbutton="url:%23|title:buy%20now||"][/vc_column_inner][vc_column_inner width="1/3"][con_button border="" conbutton="url:%23|title:buy%20now||"][/vc_column_inner][vc_column_inner width="1/3"][con_button border="" conbutton="url:%23|title:buy%20now||"][/vc_column_inner][/vc_row_inner][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]</p>
+<p>[/vc_column_text][/vc_column][/vc_row]
+
+CONTENT
+);

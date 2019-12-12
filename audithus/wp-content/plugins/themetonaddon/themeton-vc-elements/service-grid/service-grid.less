@@ -1,0 +1,116 @@
+a:hover{
+	text-decoration: none;
+}
+.nxt-service-icon{
+	
+	.nxt-services{
+		border: 1px solid #d9e0e6;
+		width: 210px;
+		text-align: center;
+		padding-top: 15px;
+		padding-bottom: 30px;
+		transition: all .3s ease;
+		&:hover {
+			box-shadow: 0px 0px 15px 0px rgba(98, 98, 98, 0.2);
+			transition: all .3s ease;
+		}
+		h3{
+			margin: 0;
+			line-height: 30px;
+		}
+	}
+	
+	.swiper-bullet { 
+        border:none !important;
+        bottom: 0;
+        text-align: center;
+    	padding-top: 30px;
+        &.circle{
+            .swiper-pagination-bullet{
+                width: 12px;
+                height: 12px;
+                border-radius: 50%;
+                border: 2px solid @color-brand;
+                background: transparent;
+                opacity: 1;
+                margin: 0 2px;
+                position: relative;
+                &.swiper-pagination-bullet-active{
+                    border: 2px solid @color-brand;
+                    &:after{
+                        content:"\f111";
+						display: block; 
+						font-family: FontAwesome;
+						font-style: normal;
+						font-weight: normal;
+                        position: absolute;
+						font-size: 6px;
+						line-height: 6px;
+						color: @color-brand;
+						top: 50%;
+						left: 53%;
+						-webkit-transform: translate(-50%,-50%);
+						transform: translate(-50%,-50%);
+                    };
+                }
+            }
+        }
+    }
+    .arrow{
+		position: absolute;
+		bottom: -5px;
+		top: inherit;
+		outline: none;
+		z-index: 999;
+	}
+	.swiper-button-prev{
+			left: 46%;
+		}
+	.swiper-button-next{
+			right:  46%;
+		}
+	.swiper-button-prev, .swiper-container-rtl .swiper-button-next,.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+		background-image: none; 
+	} 
+}
+.nxt-feature {
+	padding-bottom: 50px;
+
+	.nxt-services{
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center ;
+		position: relative;
+		height: 280px;
+		width: 100%;
+		
+		.entry-hover{
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-color: rgba(0,0,0,0.3);
+			text-align: center;
+			.transition();
+		}
+		h3{
+			position: absolute;
+			bottom:50px;
+			color: #fff;
+			font-size: 20px;
+			font-weight: 500;
+			left: 35px;
+		}
+		a{
+			font-size: 13px;
+			font-weight: 500;
+			color: #fff;
+			position: absolute;
+			bottom: 35px;
+			left: 35px;
+    		line-height: 15px;
+		}
+	}
+
+}

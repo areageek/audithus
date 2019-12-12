@@ -1,0 +1,120 @@
+.uk-timeline {
+	margin-left: 100px;
+	margin-top: 20px;
+	@media (max-width: 639px) {
+        margin-left: 0;
+    }
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		transition: all 0.5s linear;
+		top: 0;
+		li {
+			position: relative;
+			margin-bottom: 0;
+			margin-top: 0;
+			margin-left: 60px;
+			padding-bottom: 80px;
+			padding-left: 60px;
+			padding-top: 0px;
+			color: #000;
+			line-height: 20px;
+			@media (max-width: 639px) {
+				width: 100%;
+				margin-left: 0;
+				padding-left: 0;
+				padding-bottom: 50px;
+				margin-bottom: 50px;
+        	}
+			>span {
+				@media (max-width: 639px) {
+					display: none!important;
+				}
+				content: "";
+				display: block;
+				width: 0;
+				height: 100%;
+				border-left: 1px solid rgba(0, 0, 0, 0.09);
+				position: absolute;
+				top: 0;
+				left: 5px;
+				&:before {
+					content: "";
+					display: block;
+					border-radius: 50%;
+					width: 14px;
+					height: 14px;
+					background: #9a9a9a;
+					border: 2px solid #fff;
+					box-shadow: 0px 0px 0px 1px rgba(154, 154, 154, 0.2);
+					-webkit-transition: all .3s ease;
+					-o-transition: all .3s ease;
+					transition: all .3s ease;
+					position: absolute;
+					left: -9.5px;
+					top: -10px;
+				}
+				&:after {
+					top: 95%;
+				}
+			}
+			&:hover {
+				>span {
+					&:before {
+						-webkit-transition: all .3s ease;
+						-o-transition: all .3s ease;
+                        transition: all .3s ease;
+                        box-shadow: 0px 0px 0px 3px rgba(154, 154, 154, 0.2);
+						background-image: -moz-linear-gradient( 90deg, @color-ancient1 0%, @color-ancient2 100%);
+                        background-image: -webkit-linear-gradient( 90deg, @color-ancient1 0%, @color-ancient2 100%);
+                        background-image: -ms-linear-gradient( 90deg, @color-ancient1 0%, @color-ancient2 100%);
+					}
+				}
+			}
+		}
+	}
+	.timeline-title {
+		font-weight: 400;
+		font-size: 30px;
+		line-height: 40px;
+		margin-bottom: 20px;
+		top: -10px;
+		position: relative;
+		@media (max-width: 639px) {
+			top: 0;
+            margin-top: 30px;
+        }
+	}
+	.timeline-time {
+		span {
+            position: absolute;
+			left: -150px;
+            color: #2e2e2e;
+            line-height: 20px;
+			font-size: 40px;
+			font-weight: 700;
+			@media (max-width: 639px) {
+                left: 0;
+                top: 0 !important;
+                position: relative;
+                line-height: 50px;
+            }
+			&:first-child {
+				top: -10px;
+				@media (max-width: 639px) {
+					top: 0;
+					margin-top: 30px;
+				}
+			}
+		}
+	}
+	li {
+		&:last-child {
+			span {
+				border: none;
+			}
+		}
+	}
+}

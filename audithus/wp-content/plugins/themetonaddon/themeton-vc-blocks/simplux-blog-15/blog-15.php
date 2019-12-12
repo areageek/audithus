@@ -1,0 +1,17 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) {
+	die( '-1' );
+}
+
+return array(
+	'name' => esc_html__( 'Creative services blog-15', 'themetonaddon' ),
+	'image_path' => 'http://themeton.com/themetonaddon/themeton-vc-blocks/'.basename(dirname(__FILE__)).'/'.'blog-15.jpg',
+	'cat_display_name' => 'services',
+	'custom_class' => 'tt_vc_templates-1',
+	'content' => <<<CONTENT
+		[vc_row full_width="stretch_row_content" equal_height="yes" content_placement="middle"][vc_column width="1/2" css=".vc_custom_1507799643827{background-image: url(http://demo.themeton.com/simplux/wp-content/uploads/sites/88/2017/07/003-slidee-1024x682.png?id=2863) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_custom_heading text="every" font_container="tag:h2|font_size:250|text_align:center|color:%23ffffff|line_height:0.2" google_fonts="font_family:Alex%20Brush%3Aregular|font_style:400%20regular%3A400%3Anormal" el_class="t-scale opacity07"][vc_custom_heading text="moment" font_container="tag:h2|font_size:100|text_align:center|color:%23ffffff" google_fonts="font_family:Raleway%3A100%2C200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900|font_style:700%20bold%20regular%3A700%3Anormal" el_class="uppercase" css=".vc_custom_1506421834351{padding-top: 13px !important;}"][vc_custom_heading text="matters" font_container="tag:h2|font_size:250|text_align:center|color:%23ffffff|line_height:0.2" google_fonts="font_family:Alex%20Brush%3Aregular|font_style:400%20regular%3A400%3Anormal" el_class="t-scale opacity07"][/vc_column][vc_column width="1/12" css=".vc_custom_1506419297223{margin-top: 150px !important;margin-bottom: 100px !important;}"][/vc_column][vc_column width="1/3" css=".vc_custom_1506420819443{margin-top: 150px !important;margin-bottom: 100px !important;}"][vc_custom_heading text="inside a classy" font_container="tag:h2|font_size:24|text_align:center" google_fonts="font_family:Raleway%3A100%2C200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900|font_style:500%20bold%20regular%3A500%3Anormal" el_class="uppercase" el_id="letter-space-5px uppercase"][vc_custom_heading text="metropolis" font_container="tag:h2|font_size:60|text_align:center" google_fonts="font_family:Raleway%3A100%2C200%2C300%2Cregular%2C500%2C600%2C700%2C800%2C900|font_style:700%20bold%20regular%3A700%3Anormal" el_class="uppercase" css=".vc_custom_1508152143158{margin-bottom: 50px !important;padding-top: 15px !important;}"][vc_column_text]
+<p style="text-align: center;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is  distribution of letters</p>
+
+[/vc_column_text][vc_row_inner][vc_column_inner width="1/2"][service_box style="style-center style-above" icon_type="icon_image" image="2875" extra_class="none_line"][/vc_column_inner][vc_column_inner width="1/2"][service_box style="style-center style-above" icon_type="icon_image" image="2874" extra_class="none_line"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/2"][service_box style="style-center style-above" icon_type="icon_image" image="2873" extra_class="none_line"][/vc_column_inner][vc_column_inner width="1/2"][service_box style="style-center style-above" icon_type="icon_image" image="2864" extra_class="none_line"][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/12"][/vc_column][/vc_row]
+CONTENT
+);

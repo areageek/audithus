@@ -1,0 +1,10 @@
+.uk-breadcrumb {
+	margin: 0;
+	text-transform: uppercase;
+	&>:last-child>*, &>*>* {
+		color: @color-pagetitle;
+	}
+	&>:nth-child(n+2):not(.uk-first-column)::before {
+		color: @color-pagetitle;
+	}
+}    

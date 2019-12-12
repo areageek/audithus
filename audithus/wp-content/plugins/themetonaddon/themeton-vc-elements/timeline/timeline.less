@@ -1,0 +1,86 @@
+.finaq-timeline-style1 {
+    span {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .title {
+        font-size: 36px;
+        color:#000;
+        font-weight: 400;
+    }
+    .desc {
+        color: #000000;
+        opacity: 0.5;
+        font-size:16px;
+        font-weight: normal;
+    }
+    .finaq-button-s1 {
+        a {
+            border-radius: 22px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+            padding: 10px 35px;
+            color: #000;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all .3s ease-in-out;
+            &:hover {
+                color:#fff;
+                background-image: -moz-linear-gradient( 120deg, @color-ancient1 0%, @color-ancient2 100%);
+                background-image: -webkit-linear-gradient( 120deg, @color-ancient1 0%, @color-ancient2 100%);
+                background-image: -ms-linear-gradient( 120deg, @color-ancient1 0%, @color-ancient2 100%);
+            }
+        }
+    }
+}
+.finaq-timeline-style2 {
+    .year {
+        font-size: 40px;
+        color:#1a16fd;
+        font-weight: bold;
+    }
+    .title {
+        font-size: 30px;
+        color:#000;
+        font-weight: 400;
+    }
+    .desc {
+        color: #000000;
+        opacity: 0.7;
+        font-size:18px;
+        font-weight: normal;
+    }
+    .finaq-button-s2 {
+        a {
+            background: linear-gradient(to left, @color-ancient1 1%,@brand-color);
+            border-radius: 40px;
+            color:#000;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 3px;
+            text-decoration: none;
+            transition: color 0.2s;
+            &:hover {
+                color:#fff;
+                span {
+                    background: transparent;
+                }
+            }
+            span {
+                transition: background 0.3s;
+                background: #f8f8f8;
+                display: block;
+                padding: 8px 35px;
+                border-radius: 40px;
+            }
+        }
+    }
+}
+.finaq-timeline-style1,.finaq-timeline-style2 {
+    .uk-button {
+        flex: none !important;
+        width: auto !important;
+    }
+}

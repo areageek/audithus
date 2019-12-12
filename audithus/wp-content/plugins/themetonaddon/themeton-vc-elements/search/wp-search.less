@@ -1,0 +1,43 @@
+#searchform {
+    position: relative;
+    .wp-search {
+        input {
+            background: transparent;
+            border: none;
+            outline: none;
+            color: #fff;
+            font-size: 15px;
+            &::-webkit-input-placeholder {
+                color: #fff;
+                font-size: 15px;
+            }
+            &:-moz-placeholder {
+                color: #fff;
+                font-size: 15px;
+            }
+            &::-moz-placeholder {
+                color: #fff;
+                font-size: 15px;
+            }
+            &:-ms-input-placeholder {
+                color: #fff;
+                font-size: 15px;
+                ;
+            }
+        }
+        button {
+            background: transparent;
+            position: absolute;
+            top: 0;
+            border: none;
+            left: -30px;
+            outline: none;
+            cursor: pointer;
+            .uk-icon {
+                [stroke*='#']:not(.uk-preserve) {
+                    stroke: #fff;
+                }
+            }
+        }
+    }
+}
